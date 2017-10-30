@@ -86,22 +86,50 @@
                                     besoins et intérêts différenciés des femmes et des hommes dans les cadres de planification,
                                     de programmation et de budgétisation ; </li>
                                 <li>
-                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de constituer une base de données
-                                    ventilées par sexe sur la situation des groupes-cibles du Ministère avec l’appui du Mécanisme
-                                    National Genre ; </li>
-                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de contribuer à la préparation et
-                                    à l’organisation de la revue annuelle de la mise en œuvre de la SNEEG ; </li>
-                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de faciliter la formulation et le
-                                    suivi des indicateurs de résultats tenant compte du genre dans les domaines d’intervention
-                                    du Ministère ; </li>
-                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de mettre en œuvre avec l’appui du
-                                    Mécanisme national genre (MNG), le programme de renforcement des capacités en genre à l’intention
-                                    du personnel du Ministère ;</li>
-                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; d’appuyer le Ministère dans le plaidoyer
-                                    pour la promotion du genre et la mobilisation des ressources pour la mise en œuvre de la
-                                    du PIG ;</li>
-                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de faciliter la mise en œuvre de
-                                    la stratégie de communication genre au sein du ministère.</li>
+                                    ..... </li>
+                            </ul>
+                            <p style="color: black;">
+                                <u>Missions de la Coordonnatrice de la ‘Cellule Genre La Coordinatrice de la Cellule Genre aura
+                                    comme responsabilités :</u>
+                            </p>
+                        </div>
+                    </div>
+                    <!-- Dummy Content - end -->
+                </div>
+
+                 <div>
+                    <div class="rt01pagitem">Vision</div>
+
+
+                    <!-- Dummy Content - begin -->
+                    <div class="row font-blokk">
+                        {{--
+                        <div class="col4">
+                            <p class="bo-l-h"><i> fddkjfddfjk</i></p>
+                        </div> --}}
+
+                        <div class="col10">
+                            <p>La cellule a pour missions de veiller à l’intégration de la dimension genre dans toutes les activités
+                                des structures du ministère notamment à travers sa prise en compte dans les politiques, programmes,
+                                projets de développement et budgets. <br> A ce titre, elle sera responsable de la mise en œuvre
+                                du plan d’institutionnalisation du genre et en conséquence, comptable des résultats obtenus en
+                                faveur de la promotion du genre dans les différentes structures.</p>
+                            <p style="color: black;">
+                                <u> Plus spécifiquement, la cellule genre aura la responsabilité :</u>
+                            </p>
+                            <ul type="square">
+                                <li>
+                                    <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; d’élaborer, chaque année, le
+                                    cadre d’actions annuel de toutes les parties prenantes du ministère en se référant au Plan
+                                    de mise en Œuvre de la SNEEG et au plan d’institutionnalisation du genre ; </li>
+                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de contribuer à la mobilisation des
+                                    ressources aussi bien humaines, matérielles que financières nécessaires à la mise en œuvre
+                                    du cadre d’actions annuel ; </li>
+                                <li> <i class="fa fa-hand-o-right" aria-hidden="true"></i>&nbsp; de veiller à la prise en compte des
+                                    besoins et intérêts différenciés des femmes et des hommes dans les cadres de planification,
+                                    de programmation et de budgétisation ; </li>
+                                <li>
+                                    ..... </li>
                             </ul>
                             <p style="color: black;">
                                 <u>Missions de la Coordonnatrice de la ‘Cellule Genre La Coordinatrice de la Cellule Genre aura
