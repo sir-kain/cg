@@ -12,6 +12,10 @@
 @include('layouts/partials/_statistiques')
 @stop
 
+@section('presentation')
+@include('layouts/partials/_presentation')
+@stop
+
 @section('activites')
 @include('/layouts/partials/_activites')
 @stop

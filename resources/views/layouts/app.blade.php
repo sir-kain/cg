@@ -236,6 +236,9 @@
     <!-- COUNTERS -->
     @yield('statistiques')
 
+    {{--  Presentation  --}}
+    @yield('presentation')
+
     @yield('activite')
     @yield('admin')
 
