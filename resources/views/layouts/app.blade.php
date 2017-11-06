@@ -12,6 +12,8 @@
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
   <link rel="stylesheet" href="{{asset('assets/css/ionicons.min.css')}}">
   <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" type="text/css" />
+  {{--  mon style  --}}
+  <link href="{{asset('assets/css/stylesAdd.css')}}" rel="stylesheet" type="text/css" />
   <link rel="shortcut icon" href="{{asset('assets/img/Logo.png')}}" />
   <!-- Main css of rubytabs, including styles, skins -->
   <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby00.css')}}">

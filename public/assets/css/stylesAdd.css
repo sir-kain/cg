@@ -1,0 +1,7 @@
+.slide-img-only {
+    border-bottom: 2px solid #000;
+}
+
+.slide-img-only .img-wrapper {
+    height: 400px;
+}

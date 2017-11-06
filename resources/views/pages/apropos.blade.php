@@ -1,5 +1,25 @@
-@extends('layouts/app', ['title' => 'A propos |']) @section('header') @include('layouts/partials/_header') @stop @section('mainSlider')
-@include('layouts/partials/_mainSlider') @stop @section('statistiques') @include('layouts/partials/_statistiques') @stop
+@extends('layouts/app', ['title' => 'A propos |']) 
+
+@section('header') 
+@include('layouts/partials/_header')
+@stop 
+
+{{--  @section('mainSlider')
+@include('layouts/partials/_mainSlider') 
+@stop 
+
+@section('statistiques') 
+@include('layouts/partials/_statistiques') 
+@stop  --}}
+
+<div class="main-slider slide-img-only clearfix">
+  <div class="img-wrapper">
+    <img class="center-image" src="{{asset('assets/img/perfstock/slider/collaboration2.jpg')}}" />
+  </div>
+</div>
+
+
+
 @section('activite')
 
 <!-- TEMPLATE PREVIEW - begin
@@ -305,4 +325,6 @@
     ======================================================================== -->
 
 
-@stop @section('footer') @include('layouts/partials/_footer') @stop
+@stop @section('footer') 
+@include('layouts/partials/_footer') 
+@stop
