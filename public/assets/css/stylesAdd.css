@@ -5,3 +5,13 @@
 .slide-img-only .img-wrapper {
     height: 400px;
 }
+
+.square-title {
+    text-shadow: #000 0px 0px 10px;
+}
+.square-date {
+    text-shadow: #000 0px 0px 10px;
+}
+.square-text {
+    text-shadow: #000 0px 0px 10px;
+}

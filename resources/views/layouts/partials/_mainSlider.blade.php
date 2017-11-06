@@ -13,7 +13,7 @@
                   <div class="square-box">
                     @if ($theActivity != false)
                       <h4 class="square-date">Cellule Genre</h4>
-                      <h2 class="square-title" style="z-index: 1;">{{$theActivity->titre}}</h2>
+                      <h2 class="square-title">{{$theActivity->titre}}</h2>
                       {{--  <div class="square-text">{{$theActivity->description}} </div>  --}}
                     @elseif($theActivity == false)
                       <h4 class="square-date">Bienvenue sur</h4>
