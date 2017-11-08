@@ -1,5 +1,5 @@
 <header class="header type-3">
-  <div class="logo-block"><a class="logo" href="{{ url('') }}"><img src="{{asset('assets/img/Logo.png')}}" alt="" width="80px"></a></div>
+  <div class="logo-block" style="z-index:1;"><a class="logo" href="{{ url('') }}"><img src="{{asset('assets/img/Logo.png')}}" alt="" width="80px"></a></div>
   <div class="container">
     <div class="top-line clearfix"></div>
     <nav class="main-nav">

@@ -255,7 +255,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .main-nav { margin-top: 42px; margin-bottom: 34px; }
 .main-nav li { display: inline-block; margin-left: 33.2px; }
 .main-nav li:first-child { margin-left: 0;}
-.main-nav a { position: relative; display: block; font-size: 13px; line-height: 15px; font-weight: 400; color: #fff; text-transform: uppercase; padding-bottom: 9px; }
+.main-nav a { position: relative; display: block; font-size: 13px; line-height: 15px; font-weight: 600; color: #fff; text-transform: uppercase; padding-bottom: 9px; }
 .main-nav li a:before { content: ''; display: block; position: absolute; bottom: 0px; left: 0px; right: 0px; height: 2px; background: transparent; }
 /*.main-nav li.active a:before, .main-nav li:hover a:before { background: #feca16; }*/
 .header .logo-block { position: absolute; top: -10px; left: 105px;}
@@ -297,7 +297,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 .square-box:before { content: ''; position: absolute; top: -94px; left: 50%; display: block; width: 400px; height: 142px; border: 13px solid #feca16; border-bottom: none; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 .square-box:after { content: ''; position: absolute; top: 40px; left: 50%; display: block; width: 400px; height: 142px; border: 13px solid #feca16; border-top: none; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
 .square-date { position: absolute; top: -44px; left: 50%; font-size: 22px; line-height: 24px; font-weight: 400; color: #fff; letter-spacing: 4px; margin-bottom: 17px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); }
-.square-title { font-size: 72px; line-height: 72px; font-weight: 800; color: #fff; letter-spacing: 7px; text-transform: uppercase; -webkit-transform: scale(0); -moz-transform: scale(0); -ms-transform: scale(0); -o-transform: scale(0); transform: scale(0); }
+.square-title { font-size: 64px; line-height: 72px; font-weight: 800; color: #fff; letter-spacing: 7px; text-transform: uppercase; -webkit-transform: scale(0); -moz-transform: scale(0); -ms-transform: scale(0); -o-transform: scale(0); transform: scale(0); }
 .swiper-slide.active .square-title { -webkit-transform: scale(1); -moz-transform: scale(1); -ms-transform: scale(1); -o-transform: scale(1); transform: scale(1); }
 .square-text { position: absolute; top: 88px; left: 50%; font-size: 16px; line-height: 24px; font-weight: 400; color: #fff; max-width: 350px; -webkit-transform: translateX(-50%); -moz-transform: translateX(-50%); -ms-transform: translateX(-50%); -o-transform: translateX(-50%); transform: translateX(-50%); text-shadow: 1px 1px 1px #000; }
 .active .square-box:before { top: -154px; width: 440px; }
@@ -364,7 +364,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 08 - COUNTER */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.counter-wrapper { background: #222222; text-align: center; padding-top: 41px; padding-bottom: 40px; }
+.counter-wrapper { background: #222222; text-align: center; padding-top: 20px; padding-bottom: 20px; }
 .counter-title { display: inline-block; font-size: 28px; font-weight: 400; color: #fff; margin-right: 26px; line-height: 46px; vertical-align: top; margin-top: 2px; }
 .counters-block { display: inline-block; margin-top: 2px; margin-right: 39px; }
 .counters-entry { float: left; border-left: 1px solid #4e4e4e; width: 106px; }
