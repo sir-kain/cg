@@ -229,8 +229,7 @@
     <div id="loading-text">Loading</div>
   </div>
   <!-- HEADER -->
-  @yield('header') 
-  {{-- @yield('header') --}}
+  @yield('header')
 
   <div id="content-wrapper">
     <!-- MAIN-SLIDER -->

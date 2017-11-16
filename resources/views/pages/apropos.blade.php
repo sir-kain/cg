@@ -29,10 +29,10 @@
 
         <!-- TABS PREVIEW - begin -->
         <div class="rt01 rt01underline rt01size-l" data-tabs='{
-                "fx"    : "cssOne",
-                "speed" : 800,
-                "pag": { "direction": "ver" }
-            }'>
+                    "fx"    : "line",
+                    "speed" : 800,
+                    "pag": { "direction": "hor", "align": "center" }
+                }'>
 
 
             {{--

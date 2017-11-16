@@ -28,7 +28,7 @@ Route::get('/apropos', function () {
     $activities = Activity::get();
     $theActivity = false;
     return view('pages.apropos', compact('theActivity', 'activities'));
-});
+})->name('apropos');
 
 Auth::routes();
 
