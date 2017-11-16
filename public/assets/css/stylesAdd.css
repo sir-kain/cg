@@ -15,3 +15,6 @@
 .square-text {
     text-shadow: #000 0px 0px 10px;
 }
+
+.swiper-arrow-left.style-11 { padding: 15px 15px 13px 8px; background: rgba(34, 34, 34, 0.5); margin-top: -14px; }
+.swiper-arrow-right.style-11 { padding: 15px 8px 13px 15px; background: rgba(34, 34, 34, 0.5); margin-top: -14px; }

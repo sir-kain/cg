@@ -56,7 +56,7 @@
             </div>  --}}
           </div>
           <div class="pagination"></div>
-          <div class="swiper-arrow-left style-1"><img src="{{asset('assets/img/arrow_left.png')}}" alt=""></div>
-          <div class="swiper-arrow-right style-1"><img src="{{asset('assets/img/arrow_right.png')}}" alt=""></div>
+          <div class="swiper-arrow-left style-11"><img src="{{asset('assets/img/arrow_left.png')}}" alt=""></div>
+          <div class="swiper-arrow-right style-11"><img src="{{asset('assets/img/arrow_right.png')}}" alt=""></div>
         </div>
       </div>
