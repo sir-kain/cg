@@ -27,8 +27,12 @@ Route::get('/apropos', function () {
     return view('pages.apropos', compact('theActivity', 'activities'));
 })->name('apropos');
 
-Route::resource('/admin', 'ActivityAdminController');
-// Route::post('/admin', 'adminController@createActivity')->name('adminActivity');
+Route::group(['prefix' => 'admin'], function () {
+    
+    Route::resource('/activity', 'ActivityAdminController');
+    // Route::post('/admin', 'adminController@createActivity')->name('adminActivity');
+
+});
 
 
 Auth::routes();

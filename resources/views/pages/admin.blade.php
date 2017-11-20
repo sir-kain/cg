@@ -115,7 +115,7 @@
                                 <input class="btn large pull-right no-ma" type="submit" value="Ajouter">
                             </form>
                             @else
-                             <form class="block clearfix" method="POST" action="{{ route('admin.store') }}" enctype="multipart/form-data">
+                             <form class="block clearfix" method="POST" action="{{ route('activity.store') }}" enctype="multipart/form-data">
                                 {{ csrf_field() }}
 
                                 <input type="text" name="titre" class="large" placeholder="Titre de l'activité">

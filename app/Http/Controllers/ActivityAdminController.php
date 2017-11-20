@@ -15,10 +15,9 @@ class ActivityAdminController extends Controller
     public function index()
     {
         //
-        $id = 2;
         $activity = new Activity;
         $activityAmodifier = false;
-        return view('pages.admin', compact('id', 'activity', 'activityAmodifier'));
+        return view('pages.admin', compact('activity', 'activityAmodifier'));
     }
 
     /**
