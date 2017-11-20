@@ -13,22 +13,23 @@
 use App\Activity;
 
 Route::get('/', 'WelcomeController@index')->name('welcome');
+
 Route::get('/activite/{slug}', function ($slug) {
     $activities = Activity::get();
     $theActivity = Activity::where('slug', $slug)->first();
     // dd($theActivity, $activities);
     return view('pages.activite', compact('activities', 'theActivity'));
-});
-
-
-Route::resource('/admin', 'ActivityAdminController');
-// Route::post('/admin', 'adminController@createActivity')->name('adminActivity');
+})->name('activity');
 
 Route::get('/apropos', function () {
     $activities = Activity::get();
     $theActivity = false;
     return view('pages.apropos', compact('theActivity', 'activities'));
 })->name('apropos');
+
+Route::resource('/admin', 'ActivityAdminController');
+// Route::post('/admin', 'adminController@createActivity')->name('adminActivity');
+
 
 Auth::routes();
 

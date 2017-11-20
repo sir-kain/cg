@@ -180,6 +180,8 @@ return [
         Collective\Html\HtmlServiceProvider::class,
         // 
         Barryvdh\Debugbar\ServiceProvider::class,
+        // Service prettyRoute
+        PrettyRoutes\ServiceProvider::class,
 
     ],
 
