@@ -21,7 +21,7 @@
                             {{$activity->titre}}</a>
                             <div class="about-keywords">
                                 <a href="#" class="tags">Activités </a>/
-                                <a href="{{route('admin.edit', $activity)}}" class="tags">Editer </a>
+                                <a href="{{route('activity.edit', $activity)}}" class="tags">Editer </a>
                                 <!-- <a href="#" class="tags">indice </a>/
                                 <a href="#" class="tags">rapport </a>/
                                 <a href="#" class="tags">initiative </a> -->

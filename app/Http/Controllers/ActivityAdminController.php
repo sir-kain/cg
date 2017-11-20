@@ -40,7 +40,7 @@ class ActivityAdminController extends Controller
     public function store(Request $request)
     {
         //
-        $activities = Activity::get();
+        $activities = Activity::all();
         $activity = new Activity;
         $activity->titre = $request->input('titre');
         $activity->description = $request->input('description');
@@ -56,8 +56,8 @@ class ActivityAdminController extends Controller
             $activityToUpdate->save();
         }
         $theActivity = false;
-        // return view('welcome', compact('activities', 'theActivity'));
-        return redirect()->route('welcome', compact('activities', 'theActivity'));
+        // return view('welcome');
+        return redirect()->route('welcome');
     }
 
     /**

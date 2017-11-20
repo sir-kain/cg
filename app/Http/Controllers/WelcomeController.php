@@ -10,8 +10,7 @@ class WelcomeController extends Controller
     //
     public function index() {
         // Recuperation de toutes les activités.
-        $activities = Activity::get();
-        // dd($activities);
+        $activities = Activity::all();
         $theActivity = false;
         return view('welcome', compact('activities', 'theActivity'));
     }
