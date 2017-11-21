@@ -11,20 +11,25 @@
 |
 */
 use App\Activity;
+use App\Services\ActivityServices;
 
 Route::get('/', 'WelcomeController@index')->name('welcome');
 
 Route::get('/activite/{slug}', function ($slug) {
-    $activities = Activity::all();
+    // Recuperation de toutes les activités en utilisant le service
+    $activityServices = new ActivityServices();
+    $activities = $activityServices->getAllActivities()->sortByDesc('created_at');
     $theActivity = $activities->where('slug', $slug)->first();
     // dd($theActivity, $activities);
     return view('pages.activite', compact('activities', 'theActivity'));
 })->name('activity');
 
 Route::get('/apropos', function () {
-    $activities = Activity::get();
+    // Recuperation de toutes les activités en utilisant le service
+    $activityServices = new ActivityServices();
+    $activities = $activityServices->getAllActivities()->sortByDesc('created_at');
     $theActivity = false;
-    return view('pages.apropos', compact('theActivity', 'activities'));
+    return view('pages.apropos');
 })->name('apropos');
 
 Route::group(['prefix' => 'admin'], function () {
