@@ -15,8 +15,8 @@ use App\Activity;
 Route::get('/', 'WelcomeController@index')->name('welcome');
 
 Route::get('/activite/{slug}', function ($slug) {
-    $activities = Activity::get();
-    $theActivity = Activity::where('slug', $slug)->first();
+    $activities = Activity::all();
+    $theActivity = $activities->where('slug', $slug)->first();
     // dd($theActivity, $activities);
     return view('pages.activite', compact('activities', 'theActivity'));
 })->name('activity');

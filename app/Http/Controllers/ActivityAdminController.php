@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Activity;
 use Illuminate\Http\Request;
+use Illuminate\Support\Str;
 
 class ActivityAdminController extends Controller
 {
@@ -39,24 +40,20 @@ class ActivityAdminController extends Controller
      */
     public function store(Request $request)
     {
-        //
-        $activities = Activity::all();
-        $activity = new Activity;
-        $activity->titre = $request->input('titre');
-        $activity->description = $request->input('description');
-        $activity->contenu = $request->input('contenu');
-        $activity->slug = $activity->titre;
-        $activity->save();
-        // Activity::create(['titre' => $request->input('titre'), 'description' => $request->input('description'), 'contenu' => $request->input('contenu'), 'slug' => $activity->titre]);
-        if($request->hasFile('images')){
-            // dd($request->file('images')->extension());
-            $request->file('images')->storeAs('public/upload/activite', $activity->id.'.'.$request->file('images')->extension());
-            $activityToUpdate = Activity::find($activity->id);
-            $activityToUpdate->media = $activity->id.'.'.$request->file('images')->extension();
-            $activityToUpdate->save();
+
+        // $slug = str_replace(' ', '-', $request->input('titre'));
+        // sluguifier le slug ;=)
+        $slug = Str::slug($request->input('titre'));
+
+        // ajout
+        if (!$request->hasFile('images')) {
+            Activity::create(['titre' => $request->input('titre'), 'description' => $request->input('description'), 'contenu' => $request->input('contenu'), 'slug' => $slug]);
+        } else {
+            $request->file('images')->storeAs('public/upload/activite', $slug.'.'.$request->file('images')->extension());
+
+            Activity::create(['titre' => $request->input('titre'), 'description' => $request->input('description'), 'contenu' => $request->input('contenu'), 'slug' => $slug, 'media' => $slug.'.'.$request->file('images')->extension()]);
         }
-        $theActivity = false;
-        // return view('welcome');
+
         return redirect()->route('welcome');
     }
 
