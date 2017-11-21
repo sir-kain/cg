@@ -13,7 +13,7 @@ class EditActivityRequest extends FormRequest
      */
     public function authorize()
     {
-        return false;
+        return true;
     }
 
     /**
@@ -24,7 +24,9 @@ class EditActivityRequest extends FormRequest
     public function rules()
     {
         return [
-            //
+            'titre' => 'required|min:10',
+            'description' => 'required|min:15',
+            'contenu' => 'required|min:100'
         ];
     }
 }

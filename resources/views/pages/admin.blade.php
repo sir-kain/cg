@@ -78,8 +78,12 @@
                         <div class="col4">
                             <div class="rt01swipe-prevent area-highlight">
                                 <h2 class="color-hl">Remplissez les données de l'activité</h2>
-                                {{--  <p><i>Insert class "{ns}swipe-prevent" to stop swipe gestures on that element</i></p>
-                                <p class="font-blokk"><i>Consectetur adipisicing elit. Vel, sequi, quis, minima, dolor quisqua</i></p>  --}}
+                                @if($errors->any())
+                                    @foreach($errors->all() as $error)
+                                        <p class="font-blokk alart alert-danger"><i>{{$error}}</i></p>
+                                    @endforeach
+                                @endif
+                                 {{--  <p><i>Insert class "{ns}swipe-prevent" to stop swipe gestures on that element</i></p>  --}}
                                 {{--  <a class="">Go to &rarr;</a>  --}}
                             </div>
                         </div>
@@ -118,8 +122,8 @@
                              <form class="block clearfix" method="POST" action="{{ route('activity.store') }}" enctype="multipart/form-data">
                                 {{ csrf_field() }}
 
-                                <input type="text" name="titre" class="large" placeholder="Titre de l'activité">
-                                <input type="text" name="description" class="large" placeholder="Description de l'article">
+                                <input type="text" id="titreForm" name="titre" class="large" placeholder="Titre">
+                                <input type="text" id="descriptionForm" name="description" class="large" placeholder="Description">
                                 {{--  <input type="text" class="large" placeholder="Password">
                                 <input type="text" class="large" placeholder="Repeat Password">
                                 <input type="text" class="large" placeholder="Email">  --}}

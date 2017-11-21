@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Activity;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
+use App\Http\Requests\EditActivityRequest;
 
 class ActivityAdminController extends Controller
 {
@@ -38,7 +39,7 @@ class ActivityAdminController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(EditActivityRequest $request)
     {
 
         // $slug = str_replace(' ', '-', $request->input('titre'));
