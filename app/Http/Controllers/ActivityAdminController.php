@@ -6,6 +6,7 @@ use App\Activity;
 use Illuminate\Http\Request;
 use Illuminate\Support\Str;
 use App\Http\Requests\EditActivityRequest;
+use Flashy;
 
 class ActivityAdminController extends Controller
 {
@@ -45,15 +46,17 @@ class ActivityAdminController extends Controller
         // $slug = str_replace(' ', '-', $request->input('titre'));
         // sluguifier le slug ;=)
         $slug = Str::slug($request->input('titre'));
-
         // ajout
         if (!$request->hasFile('images')) {
             Activity::create(['titre' => $request->input('titre'), 'description' => $request->input('description'), 'contenu' => $request->input('contenu'), 'slug' => $slug]);
+            Flashy::message('Activité ajoutée avec succes!', route('activity', $slug));
         } else {
             $request->file('images')->storeAs('public/upload/activite', $slug.'.'.$request->file('images')->extension());
 
             Activity::create(['titre' => $request->input('titre'), 'description' => $request->input('description'), 'contenu' => $request->input('contenu'), 'slug' => $slug, 'media' => $slug.'.'.$request->file('images')->extension()]);
+            Flashy::message('Activité ajoutée avec succes!', route('activity', $slug));
         }
+
 
         return redirect()->route('welcome');
     }

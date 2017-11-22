@@ -485,6 +485,7 @@
   <!-- CSS effects (CSS One - Two - Four effects) in rubytabs -->
   <link rel="stylesheet" href="{{asset('ruby/rubyanimate.js')}}">
   <script src="{{asset('assets/js/main.js')}}"></script>
+  @include('flashy::message')
 </body>
 
 </html>
