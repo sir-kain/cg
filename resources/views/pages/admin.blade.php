@@ -79,6 +79,7 @@
                             <div class="rt01swipe-prevent area-highlight">
                                 <h2 class="color-hl">Remplissez les données de l'activité</h2>
                                 @if($errors->any())
+                                {{--  {{dump($errors->has('titre'))}}  --}}
                                     @foreach($errors->all() as $error)
                                         <p class="font-blokk alart alert-danger"><i>{{$error}}</i></p>
                                     @endforeach
@@ -122,12 +123,12 @@
                              <form class="block clearfix" method="POST" action="{{ route('activity.store') }}" enctype="multipart/form-data">
                                 {{ csrf_field() }}
 
-                                <input type="text" id="titreForm" name="titre" class="large" placeholder="Titre">
-                                <input type="text" id="descriptionForm" name="description" class="large" placeholder="Description">
+                                <input type="text" name="titre" class="large" value="{{old('titre')}}">
+                                <input type="text" id="descriptionForm" name="description" class="large" placeholder="Description" value="{{old('description')}}">
                                 {{--  <input type="text" class="large" placeholder="Password">
                                 <input type="text" class="large" placeholder="Repeat Password">
                                 <input type="text" class="large" placeholder="Email">  --}}
-                                <textarea name="contenu" cols="30" rows="5" placeholder="Contenu de l'activité"></textarea>
+                                <textarea name="contenu" cols="30" rows="5" placeholder="Contenu de l'activité"> {{old('contenu')}} </textarea>
 
                                 {{--  <label class="checkbox text-small muted pull-left" for="terms">
                                     <input id="terms" type="checkbox">I have read and I agree the Terms of Use
