@@ -8,8 +8,7 @@ class adminController extends Controller
 {
     //
     public function index() {
-        $id = 2;
-        return view('pages.admin', compact('id'));
+        return view('pages.admin');
     }
 
 

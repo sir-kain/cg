@@ -301,6 +301,7 @@
 
 
                                 <input type="text" name="nom" class="large" placeholder="Nom et Prenom">
+                                <input type="email" name="email" class="large" placeholder="email">
                                 <input type="text" name="sujet" class="large" placeholder="Sujet">
                                 {{--  <input type="text" class="large" placeholder="Password">
                                 <input type="text" class="large" placeholder="Repeat Password">

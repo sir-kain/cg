@@ -15,6 +15,8 @@ use App\Services\ActivityServices;
 
 Route::get('/', 'WelcomeController@index')->name('welcome');
 
+Route::post('/apropos', 'ContactController@store');
+
 Route::get('/activite/{slug}', function ($slug) {
     // Recuperation de toutes les activités en utilisant le service
     $activityServices = new ActivityServices();
