@@ -41,6 +41,11 @@ Route::group(['prefix' => 'admin'], function () {
 
 });
 
+Route::group(['prefix' => 'a-propos'], function () {
+
+    Route::get('/historique', 'AproposController@historique')->name('historique');
+});
+
 
 Auth::routes();
 

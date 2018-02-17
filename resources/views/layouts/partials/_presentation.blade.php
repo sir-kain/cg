@@ -14,28 +14,36 @@
         <div class="service-wrapper">
             <div class="row">
                 <div class="service-block col-xs-12 col-sm-6 col-md-3">
-                    <div class="service-entry">
-                        <img class="service-icon" src="{{asset('assets/img/service_1.png')}}" alt="">
-                        <img class="service-alt" src="{{asset('assets/img/service_1_w.png')}}" alt="">
-                        <h4 class="service-title">Historique</h4> <br>
-                        <div class="service-text">Sur les plans international, national, regional.</div>
-                    </div>
+                    <a href="{{ route('historique') }}">
+                        <div class="service-entry">
+                            <img class="service-icon" src="{{asset('assets/img/service_1.png')}}" alt="">
+                            <img class="service-alt" src="{{asset('assets/img/service_1_w.png')}}" alt="">
+                            <h4 class="service-title">Historique</h4> <br>
+                            <div class="service-text">Sur les plans international, national, regional.</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="service-block col-xs-12 col-sm-6 col-md-3">
-                    <div class="service-entry">
-                        <img class="service-icon" src="{{asset('assets/img/service_2.png')}}" alt="">
-                        <img class="service-alt" src="{{asset('assets/img/service_2_w.png')}}" alt="">
-                        <h4 class="service-title">Composition (Structuration)</h4>
-                        <div class="service-text">Organes, comité national, comité regional, ressources de la cellule.</div>
-                    </div>
+                    <a href="{{ route('historique') }}">
+                        <div class="service-entry">
+                            <img class="service-icon" src="{{asset('assets/img/service_2.png')}}" alt="">
+                            <img class="service-alt" src="{{asset('assets/img/service_2_w.png')}}" alt="">
+                            <h4 class="service-title">Composition (Structuration)</h4>
+                            <div class="service-text">Organes, comité national, comité regional, ressources de la
+                                cellule.
+                            </div>
+                        </div>
+                    </a>
                 </div>
                 <div class="service-block col-xs-12 col-sm-6 col-md-3">
-                    <div class="service-entry">
-                        <img class="service-icon" src="{{asset('assets/img/service_3.png')}}" alt="">
-                        <img class="service-alt" src="{{asset('assets/img/service_3_w.png')}}" alt="">
-                        <h4 class="service-title">Objectifs & Ambitions</h4>
-                        <div class="service-text">Objectif général, objectifs spécifiques, perspectives</div>
-                    </div>
+                    <a href="{{ route('historique') }}">
+                        <div class="service-entry">
+                            <img class="service-icon" src="{{asset('assets/img/service_3.png')}}" alt="">
+                            <img class="service-alt" src="{{asset('assets/img/service_3_w.png')}}" alt="">
+                            <h4 class="service-title">Objectifs & Ambitions</h4>
+                            <div class="service-text">Objectif général, objectifs spécifiques, perspectives</div>
+                        </div>
+                    </a>
                 </div>
                 <div class="service-block col-xs-12 col-sm-6 col-md-3">
                     <div class="service-entry">

@@ -42,3 +42,9 @@
 
 
 .service-entry:hover .service-alt { display: inline-block; }
+
+.simple-article-text { font-size: 15px; line-height: 24px; font-weight: 400; }
+
+.marge {
+    margin-left: 3em;
+}
