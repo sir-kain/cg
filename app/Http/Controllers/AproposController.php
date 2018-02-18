@@ -13,4 +13,14 @@ class AproposController extends Controller
     {
         return view('pages.historique');
     }
+
+    public function structuration()
+    {
+        return view('pages.structuration');
+    }
+
+    public function objectifsambition()
+    {
+        return view('pages.objectifsambitions');
+    }
 }

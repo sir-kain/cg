@@ -24,7 +24,7 @@
                     </a>
                 </div>
                 <div class="service-block col-xs-12 col-sm-6 col-md-3">
-                    <a href="{{ route('historique') }}">
+                    <a href="{{ route('structuration') }}">
                         <div class="service-entry">
                             <img class="service-icon" src="{{asset('assets/img/service_2.png')}}" alt="">
                             <img class="service-alt" src="{{asset('assets/img/service_2_w.png')}}" alt="">
@@ -36,7 +36,7 @@
                     </a>
                 </div>
                 <div class="service-block col-xs-12 col-sm-6 col-md-3">
-                    <a href="{{ route('historique') }}">
+                    <a href="{{ route('objectifsambition') }}">
                         <div class="service-entry">
                             <img class="service-icon" src="{{asset('assets/img/service_3.png')}}" alt="">
                             <img class="service-alt" src="{{asset('assets/img/service_3_w.png')}}" alt="">

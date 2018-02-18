@@ -180,14 +180,14 @@
                         </a>
                     </h6>
                     <h6>
-                        <a>
+                        <a href="{{route('structuration')}}">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_2.png')}}" alt="">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_2_d.png')}}" alt="">
                             Composition (Structuration)
                         </a>
                     </h6>
                     <h6>
-                        <a>
+                        <a href="objectifsambitions.blade.php">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_3.png')}}" alt="">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_3_d.png')}}" alt="">
                             lorem impsut
