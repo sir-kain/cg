@@ -33,7 +33,7 @@
 
 /* layouts*/
 .justify { text-align: justify; }
-.no-wrap { white-space: nowrap; }
+/*.no-wrap { white-space: nowrap; }*/
 .left-align { text-align: left !important; }
 .no-pad { padding: 0; }
 /*overwrites*/
@@ -47,4 +47,15 @@
 
 .marge {
     margin-left: 3em;
+}
+
+/*.imagefooter{*/
+    /*!*padding: 0 5px 0 50px;*!*/
+    /*height: 350px;*/
+    /*background: center center url('../img/perfstock/people_insights.jpg');*/
+    /*background-size: cover;*/
+/*}*/
+
+h5:hover {
+
 }

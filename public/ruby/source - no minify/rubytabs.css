@@ -442,7 +442,7 @@
  */
 .rt01pagmark-item {
     position: absolute;
-    background-color: #cc0055;
+    background-color: #fe9ec4;
 
     -webkit-transition: -webkit-transform .2s, width .2s, height .2s;
             transition:         transform .2s, width .2s, height .2s;
@@ -575,7 +575,7 @@
 }
 
 @-webkit-keyframes rt01loaderColor {
-    0%, 100% { stroke: #cc0055; }
+    0%, 100% { stroke: #fe9ec4; }
     15%      { stroke: #ffaa00; }
     30%      { stroke: #c9c900; }
     45%      { stroke: #00cc00; }
@@ -584,7 +584,7 @@
     90%      { stroke: #ff00cc; }
 }
 @keyframes rt01loaderColor {
-    0%, 100% { stroke: #cc0055; }
+    0%, 100% { stroke: #fe9ec4; }
     15%      { stroke: #ffaa00; }
     30%      { stroke: #c9c900; }
     45%      { stroke: #00cc00; }
@@ -1180,7 +1180,7 @@
 }
 .rt01flat > .rt01tabs .rt01pagitem.rt01cur,
 .rt01flatbox > .rt01tabs .rt01pagitem.rt01cur {
-    background-color: #cc0055;
+    background-color: #fe9ec4;
     color: #fff;
 }
 
@@ -1188,11 +1188,11 @@
 /* FLAT HORIZONTAL */
 .rt01flat > .rt01tabs.rt01pag-hor.rt01pag-begin,
 .rt01flatbox > .rt01tabs.rt01pag-hor.rt01pag-begin {
-    border-bottom: 2px solid #cc0055;
+    border-bottom: 2px solid #fe9ec4;
 }
 .rt01flat > .rt01tabs.rt01pag-hor.rt01pag-end,
 .rt01flatbox > .rt01tabs.rt01pag-hor.rt01pag-end {
-    border-top: 2px solid #cc0055;
+    border-top: 2px solid #fe9ec4;
 }
 
 .rt01flatbox > .rt01tabs.rt01pag-hor {
@@ -1220,7 +1220,7 @@
 .rt01flat > .rt01tabs.rt01pag-ver .rt01pagitem.rt01cur,
 .rt01flatbox > .rt01tabs.rt01pag-ver .rt01pagitem.rt01cur {
     margin-top: -1px;
-    border-bottom-color: #cc0055;
+    border-bottom-color: #fe9ec4;
 }
 
 .rt01flatbox > .rt01tabs.rt01pag-ver {
@@ -1237,16 +1237,16 @@
     border-width: 1px 0 1px 1px;
 }
 .rt01flat > .rt01pag-ver.rt01pag-begin {
-    border-right: 2px solid #cc0055;
+    border-right: 2px solid #fe9ec4;
 }
 .rt01flat > .rt01pag-ver.rt01pag-end {
-    border-left: 2px solid #cc0055;
+    border-left: 2px solid #fe9ec4;
 }
 .rt01flatbox.rt01pag-ver.rt01pag-begin > .rt01viewport {
-    border-left: 2px solid #cc0055;
+    border-left: 2px solid #fe9ec4;
 }
 .rt01flatbox.rt01pag-ver.rt01pag-end > .rt01viewport {
-    border-right: 2px solid #cc0055;
+    border-right: 2px solid #fe9ec4;
 }
 
 
@@ -1260,7 +1260,7 @@
     background-color: #f0f0f0;
 }
 .rt01round > .rt01tabs .rt01pagitem.rt01cur {
-    background-color: #cc0055; color: #fff;
+    background-color: #fe9ec4; color: #fff;
 }
 
 
@@ -1309,11 +1309,11 @@
     content: '';
     display: block;
     position: absolute;
-    background-color: #cc0055;
+    background-color: #fe9ec4;
 }
 .rt01outline > .rt01tabs.rt01pag-hor .rt01pagitem.rt01cur,
 .rt01outline > .rt01tabs.rt01pag-ver .rt01pagitem.rt01cur {
-    border-color: #cc0055;
+    border-color: #fe9ec4;
     z-index: 2;
 }
 
@@ -1395,11 +1395,11 @@
 }
 .rt01underline > .rt01tabs.rt01pag-hor.rt01pag-begin .rt01pagitem.rt01cur {
     padding-bottom: 14px;
-    border-bottom: 4px solid #cc0055;
+    border-bottom: 4px solid #fe9ec4;
 }
 .rt01underline > .rt01tabs.rt01pag-hor.rt01pag-end .rt01pagitem.rt01cur {
     padding-top: 14px;
-    border-top: 4px solid #cc0055;
+    border-top: 4px solid #fe9ec4;
 }
 
 
@@ -1415,7 +1415,7 @@
 }
 .rt01underline > .rt01tabs.rt01pag-ver .rt01pagitem.rt01cur {
     padding-bottom: 14px;
-    border-bottom: 4px solid #cc0055;
+    border-bottom: 4px solid #fe9ec4;
 }
 
 
@@ -1674,7 +1674,7 @@ a.rt01flickr-album-title:hover, a.rt01flickr-author:hover {
 ----------------------------------------------------------------------------- */
 .rt01bulletflat .rt01pag {
     padding-left: 10px; padding-right: 10px;
-    background-color: #cc0055;
+    background-color: #fe9ec4;
 }
 .rt01bulletflat .rt01viewport {
     padding: 20px;

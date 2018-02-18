@@ -1097,6 +1097,8 @@
         ======================================================================== -->
     <div class="page-buffer"></div>
 
-@stop @section('footer')
+
+@stop
+@section('footer')
     @include('layouts/partials/_footer')
 @stop

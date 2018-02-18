@@ -22,7 +22,7 @@
         <!-- TABS PREVIEW - begin -->
         <div class="rt01 rt01underline rt01size-l"
             data-tabs='{
-                "fx"    : "cssOne",
+                "fx"    : "line",
                 "speed" : 800,
                 "pag"   : { "align": "center" }
             }'>
@@ -50,17 +50,17 @@
 
 
             <div>
-                <div class="rt01pagitem">Activité</div>
+                <h2 class="rt01pagitem">Activité</h2>
 
 
                 <!-- Dummy Content - begin -->
                 <div class="row font-blokk">
-                    <div class="col4">
-                        <p class="bo-l-h"><i> {{$theActivity->titre}}</i></p>
+                    <div class="col2">
+                        <h2 class="bo-l-h" ><i> {{$theActivity->titre}}</i></h2>
                     </div>
 
-                    <div class="col8">
-                        <p class="dropcap">{{$theActivity->contenu}}.</p>
+                    <div class="col10">
+                        <p class="dropcap" style="font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; line-height: 180%; padding: 0 100px 0 40px;">{{$theActivity->contenu}}.</p>
                     
                     </div>
                 </div>
@@ -102,7 +102,7 @@
 
 
             <div>
-                <div class="rt01pagitem">Galerie</div>
+                <h2 class="rt01pagitem">Galerie</h2>
 
                 <div class="row">
                     <div class="col4">

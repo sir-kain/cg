@@ -15,7 +15,7 @@ $("#navActivites").click(function (e) {
 
 });
 var images
-window.onload = function() {
+window.onload = function () {
 
 
     images = document.getElementById('images')
@@ -23,7 +23,7 @@ window.onload = function() {
     var selectMedia = document.getElementById('selectMedia')
     selectMedia.addEventListener('click', ouvredialogue, false)
 
-}
+};
 
 function ouvredialogue(e){
     e.preventDefault()

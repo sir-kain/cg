@@ -15,15 +15,16 @@
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" type="text/css"/>
     {{--  mon style  --}}
     <link href="{{asset('assets/css/stylesAdd.css')}}" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="{{asset('assets/img/Logo.png')}}"/>
+    <link rel="shortcut icon" href="{{asset('assets/img/msas/logo.jpeg')}}"/>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <!-- Main css of rubytabs, including styles, skins -->
     <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby00.css')}}">
     <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby01.css')}}">
     <link rel="stylesheet" href="{{asset('ruby/rubytabs.css')}}">
 
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
-    {{--
-   <link rel="stylesheet" href="{{asset('ruby/libs/css/styles.custom.css')}}"> --}}
+
+   {{--<link rel="stylesheet" href="{{asset('ruby/libs/css/styles.custom.css')}}">--}}
     <script src="{{asset('ruby/libs/scripts/modernizr.js')}}"></script>
 
 
@@ -286,11 +287,19 @@
 <!-- SLIDER WITH THUMBS PUBLICATIONS -->
 @yield('actualites')
 
+
+<!-- TESTIMONALS -->
+@yield('documentations')
+<!-- NEWS -->
+@yield('pointsFocaux')
+<!-- SPONSORS -->
+@yield('partenaires')
+@yield('content')
 <!-- MESSAGE LINE -->
     <div id="sing" class="message-line">
         <div class="container">
             <div class="message-entry clearfix">
-                <h2 class="message-title">Prêt à nous rejoindre?</h2>
+                <h2 class="message-title">S'inscrire à la newsletter?</h2>
                 <div class="message-text">Rejoignez notre communauté d’acteurs engagés dans la transformation du
                     continent.
                 </div>
@@ -298,87 +307,74 @@
             <a class="register-link c-btn b-50 black hv-blue-o" href="#">S'inscrire</a>
         </div>
     </div>
-    <!-- TESTIMONALS -->
-@yield('documentations')
-<!-- NEWS -->
-@yield('pointsFocaux')
-<!-- SPONSORS -->
-@yield('partenaires')
-@yield('content')
-    {{--
     <div id="contact" class="contact-block bg-dark">
-      <div class="map-block slogan-block" data-style="style-1">
-        <div class="contact-title">
-          Cellule Genre,<br /> l'Emergence Africaine est en marche
-        </div>
-      </div>
-      <div class="addresses-block">
-        <a data-lat="40.687971" data-lng="-73.827457" data-string="1. Here is some address or email or phone or something else..."></a>
-        <a data-lat="40.725604" data-lng="-73.445888" data-string="2. Here is some address or email or phone or something else..."></a>
-      </div>
-      <div class="container">
-        <div class="row">
-          <div class="col-xs-12 col-md-6">
-            <div class="contact-entry">
-              <div class="row">
-                <div class="col-xs-12 col-sm-6">
-                  <div class="s-contact">
-                    <div class="contact-catagory">Nous joindre</div>
-                    <div class="contact-title">contact</div>
-                    <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</div>
-                    <div class="contact-row">
-                      <p><i class="fa fa-map-marker"></i> 44 Place de l'independance</p>
-                      <p><i class="fa fa-envelope-o"></i><a href="mailto:emergenceinsight@pnud.com">emergenceinsight@pnud.com!!</a></p>
-                      <p><i class="fa fa-phone"></i><a href="tal:61402186411q">+221 33 555 1234</a>, <a href="tal:6166650">+221 33 555 4567</a></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-xs-12 col-md-6">
+                    <div class="contact-entry">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="s-contact">
+                                    <div class="contact-catagory">Nous joindre</div>
+                                    <div class="contact-title">contact</div>
+                                    <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor
+                                    </div>
+                                    <div class="contact-row">
+                                        <p><i class="fa fa-map-marker"></i> 44 Place de l'independance</p>
+                                        <p><i class="fa fa-envelope-o"></i><a href="mailto:cellulegenre@sante.gouv.sn">cellulegenre@sante.gouv.sn!!</a>
+                                        </p>
+                                        <p><i class="fa fa-phone"></i><a href="tal:338694274">+221 33 869 42 74</a>,
+                                            <a href="tal:338694274">+221 33 869 42 74</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-xs-12 col-sm-6">
+                                <div class="s-contact">
+                                    <div class="contact-catagory style-2">Sur Twitter</div>
+                                    <div class="contact-title">Le fil d'actu</div>
+                                    <div class="twitter-row">
+                                        <p><i class="fa fa-twitter"></i> <span>@faq</span> vestibulum accumsan est
+                                            malesuada sem auctor, eu aliquet
+                                            nisi
+                                        </p>
+                                        <p><i class="fa fa-twitter"></i> <span>@faq</span> suspendisse id pharetra
+                                            lacus, et hendrerit mi. Praesent
+                                            at tortor.</p>
+                                        <p><i class="fa fa-twitter"></i> <span>@faq</span> donec volutpat enim at
+                                            interdum pretium. Vestibulum
+                                            ante ipsum
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                <div class="col-xs-12 col-sm-6">
-                  <div class="s-contact">
-                    <div class="contact-catagory style-2">Sur Twitter</div>
-                    <div class="contact-title">Le fil d'actu</div>
-                    <div class="twitter-row">
-                      <p><i class="fa fa-twitter"></i> <span>@faq</span> vestibulum accumsan est malesuada sem auctor, eu aliquet
-                        nisi
-                      </p>
-                      <p><i class="fa fa-twitter"></i> <span>@faq</span> suspendisse id pharetra lacus, et hendrerit mi. Praesent
-                        at tortor.</p>
-                      <p><i class="fa fa-twitter"></i> <span>@faq</span> donec volutpat enim at interdum pretium. Vestibulum
-                        ante ipsum
-                      </p>
-                    </div>
-                  </div>
+                <div class="col-xs-12 col-md-6 imagefooter">
+                    <img src="{{asset('assets/img/perfstock/people_insights.jpg')}}" alt="" height="350px"
+                         width="600px">
                 </div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
-    </div> --}}
+    </div>
 </div>
 <!-- FOOTER -->
 {{-- @include('layouts/partials/_footer') --}}
 @yield('footer')
 <div class="register-popup custom-popup">
-    <form action="mail.php" class="js-contact-form" method="POST">
+    <form action="" class="js-contact-form" method="POST">
         <div class="popup-close"><i class="fa fa-times"></i></div>
-        <h3 class="popup-title  form-element">Inscrivez-vous</h3>
+        <h3 class="popup-title  form-element">Inscrivez-vous à la newsletter</h3>
         <div class="c-form-group form-element">
-            <div class="c-form-label">Nom</div>
+            <div class="c-form-label">Prénom & Nom</div>
             <input type="text" name="fields[first_name]">
-        </div>
-        <div class="c-form-group form-element">
-            <div class="c-form-label">Prenom</div>
-            <input type="text" name="fields[last_name]">
         </div>
         <div class="c-form-group form-element">
             <div class="c-form-label">Email</div>
             <input type="email" name="fields[email]">
         </div>
-        <div class="c-form-group form-element">
-            <div class="c-form-label">Telephone</div>
-            <input type="tel" name="fields[phone]">
-        </div>
+        <input type="hidden" name="_token" id="tokenn" value="{{ csrf_token() }}">
         <div class="c-form-group form-element">
             <div class="message-result">
                 <div class="ajax-result">
@@ -401,7 +397,7 @@
 <script src="{{asset('assets/js/global.js')}}"></script>
 <script src="{{asset('assets/js/anchors.navigation.js')}}"></script>
 <!-- Main script of rubytabs -->
-<script src="{{asset('ruby/rubytabs.js')}}"></script>
+{{--<script src="{{asset('ruby/rubytabs.js')}}"></script>--}}
 <!-- Script - begin
   ======================================================================== -->
 {{--

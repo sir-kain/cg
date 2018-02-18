@@ -759,7 +759,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', e
 /*-------------------------------------------------------------------------------------------------------------------------------*/
 /* 22 - CONTACT */
 /*-------------------------------------------------------------------------------------------------------------------------------*/
-.contact-block { position: relative; padding-top: 112px; padding-bottom: 90px; }
+.contact-block { padding-top: 112px; padding-bottom: 90px; }
 .map-block { position: absolute; top: 0px; left: 50%; right: 0px; bottom: 0px; }
 .slogan-block { background: center center url('../img/perfstock/people_insights.jpg');}
 .slogan-block { background-size: cover;}

@@ -41,8 +41,8 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-9" style="font-family: 'Old Standard TT', serif; font-size: 20px; line-height: 180%; padding: 0 100px 0 40px;">
+                <div class="col-md-9"
+                     style="font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; line-height: 180%; padding: 0 100px 0 40px;">
                     <p align="justify">
                         Le Sénégal a ratifié de nombreux instruments juridiques :
                     </p>
@@ -82,14 +82,16 @@
                         tenant compte des écarts .
                     </p>
                     <p align="justify">
-                        <span class="marge"></span>La Stratégie Nationale de l’Equité et Egalité de Genre (SNEEG) est le 3ème
+                        <span class="marge"></span>La Stratégie Nationale de l’Equité et Egalité de Genre (SNEEG) est le
+                        3ème
                         cadre de référence pour la promotion de la femme et de l’égalité de genre
                         au Sénégal. Elle a été élaborée en 2004 suivant un processus participatif
                         auquel tous les acteurs de développement, parties prenantes de la promotion
                         de la femme et de l’égalité de genre ont activement contribué.
                     </p>
                     <p align="justify">
-                        <span class="marge"></span>Le Sénégal a adopté cette stratégie afin de mettre en œuvre la vision de :
+                        <span class="marge"></span>Le Sénégal a adopté cette stratégie afin de mettre en œuvre la vision
+                        de :
                         « faire du Sénégal un pays émergent où les hommes et les femmes auront les
                         mêmes chances de participer à son développement et de jouir des bénéfices
                         de sa croissance. ».
@@ -106,7 +108,8 @@
                             </p>
                         </li>
                         <li>
-                            <span class="marge"></span> <p align="justify">
+                            <span class="marge"></span>
+                            <p align="justify">
                                 une stratégie de lutte contre toute forme d’inégalités;
                             </p>
                         </li>
@@ -120,7 +123,8 @@
                         </li>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span>la contribution à la mise en œuvre des objectifs de développement
+                                <span class="marge"></span>la contribution à la mise en œuvre des objectifs de
+                                développement
                                 durable (ODD), surtout
                                 <strong>
                                     ODD 5 «assurer l’égalité des sexes et autonomiser toutes les
@@ -143,7 +147,8 @@
                     </p>
                     <p align="justify">
                         <span class="marge"></span>A cet effet, la cellule genre du Ministère de la Santé et de l’Action
-                        sociale, a été créée par arrêté    <strong>n° 1454/MSAS/DPRS/CG du 03/02/2015, </strong>suite à la circulaire
+                        sociale, a été créée par arrêté <strong>n° 1454/MSAS/DPRS/CG du 03/02/2015, </strong>suite à la
+                        circulaire
                         primatoriale du 26 mars 2013 invitant les différents départements
                         ministériels à assurer la prise en compte du genre dans leur secteur. Dans
                         ce cadre, il est attendu, de chaque ministère, le développement
@@ -164,6 +169,37 @@
                         et d’égalité entre les femmes et les hommes au Sénégal dans le domaine de
                         la santé.
                     </p>
+                </div>
+                <div class="col-md-3" style="padding-top: 50px; padding-right: 30px;">
+                    <h3>Voir aussi...</h3>
+                    <h6 class="active bo-r-h">
+                        <a href="{{route('historique')}}">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_1.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_1_d.png')}}" alt="">
+                            Historique
+                        </a>
+                    </h6>
+                    <h6>
+                        <a>
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_2.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_2_d.png')}}" alt="">
+                            Composition (Structuration)
+                        </a>
+                    </h6>
+                    <h6>
+                        <a>
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_3.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_3_d.png')}}" alt="">
+                            lorem impsut
+                        </a>
+                    </h6>
+                    <h6>
+                        <a>
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_4.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_4_d.png')}}" alt="">
+                            lorem impsut
+                        </a>
+                    </h6>
                 </div>
             </div>
         </div>
