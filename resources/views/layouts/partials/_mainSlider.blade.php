@@ -13,12 +13,12 @@
                   <div class="square-box">
                     @if ($theActivity != false)
                       <h4 class="square-date">Cellule Genre</h4>
-                      <h2 class="square-title">{{str_limit($theActivity->titre, 20)}}</h2>
+                      <h2 class="square-title" style="font-size: 50px;">{{str_limit($theActivity->titre, 30)}}</h2>
                       <div class="square-text">{{$theActivity->description}} </div>
                     @elseif($theActivity == false)
                       <h4 class="square-date">Bienvenue sur</h4>
                       <h2 class="square-title">Cellule Genre</h2>
-                      <div class="square-text">Le slogan cellule genre ici... </div>
+                      <div class="square-text"> Equité et égalité de genre pour le bien-être de tous.</div>
                       @endif
                       {{--  @elseif($id == 2)
                         <h4 class="square-date">Bienvenue sur</h4>

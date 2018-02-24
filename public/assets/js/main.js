@@ -14,6 +14,14 @@ $("#navActivites").click(function (e) {
     }, 2000);
 
 });
+
+$("#navMediatheque").click(function (e) {
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $('#centreressources').offset().top - 100
+    }, 2000);
+
+});
 var images
 window.onload = function () {
 

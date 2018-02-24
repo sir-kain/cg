@@ -15,16 +15,16 @@
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" type="text/css"/>
     {{--  mon style  --}}
     <link href="{{asset('assets/css/stylesAdd.css')}}" rel="stylesheet" type="text/css"/>
-    <link rel="shortcut icon" href="{{asset('assets/img/msas/logo.jpeg')}}"/>
+    <link rel="shortcut icon" href="{{asset('assets/img/Logo.png')}}"/>
     <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <!-- Main css of rubytabs, including styles, skins -->
     <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby00.css')}}">
     <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby01.css')}}">
+    <link rel="stylesheet" href="{{asset('ruby/libs/css/styles.custom.css')}}">
     <link rel="stylesheet" href="{{asset('ruby/rubytabs.css')}}">
 
     <link href="https://fonts.googleapis.com/css?family=Old+Standard+TT" rel="stylesheet">
 
-   {{--<link rel="stylesheet" href="{{asset('ruby/libs/css/styles.custom.css')}}">--}}
     <script src="{{asset('ruby/libs/scripts/modernizr.js')}}"></script>
 
 
@@ -33,6 +33,13 @@
     <!-- Style embedded -->
     <style>
 
+        /* IMAGE RESPONSIVE */
+        .img-responsive {
+            display: block;
+            width: 100%; height: auto;
+            margin-bottom: 30px;
+            border-radius: 4px;
+        }
         /* GENERAL STYLE */
         body {
             font-size: 16px;
@@ -244,6 +251,10 @@
             line-height: 24px;
         }
     </style>
+
+
+
+
 </head>
 
 
@@ -281,6 +292,9 @@
 
 @yield('activites')
 
+<!-- TESTIMONALS -->
+@yield('documentations')
+
 <!-- ABOUT -->
 @yield('galeries')
 
@@ -288,8 +302,6 @@
 @yield('actualites')
 
 
-<!-- TESTIMONALS -->
-@yield('documentations')
 <!-- NEWS -->
 @yield('pointsFocaux')
 <!-- SPONSORS -->

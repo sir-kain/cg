@@ -29,7 +29,7 @@
             <div class="row" style="padding: 20px 0px 75px;">
                 <div class="title-head">
                     <div class="title-head-inner">
-                        <h1 class="no-wrap justify" style="font-weight: 100">Composition (Structuration)</h1>
+                        <h1 class="no-wrap justify bo-b" style="border-color: #cc0055; font-weight: 100">Structuration</h1>
                     </div>
                     <div class="page-summary">
                         <p class="justify" style="padding-left: 150px; padding-right: 150px;">
@@ -43,23 +43,23 @@
             <div class="row">
                 <div class="col-md-9"
                      style="font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; line-height: 180%; padding: 0 100px 0 40px;">
-                    <p>
+                    <p class="dropcap">
                         Les <strong>organes</strong> de la cellule genre sont :
                     </p>
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span>La coordination ;
+                                <span class="marge"></span>• La coordination ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>Le comité national des points focaux ;
+                                <span class="marge"></span>• Le comité national des points focaux ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>Le comité régional des points focaux.
+                                <span class="marge"></span>• Le comité régional des points focaux.
                             </p>
                         </li>
                     </ul>
@@ -74,12 +74,12 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span> Un ou une assistant(e) suivi-évaluation
+                                <span class="marge"></span> • Un ou une assistant(e) suivi-évaluation
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> Un ou une gestionnaire
+                                <span class="marge"></span>• Un ou une gestionnaire
                             </p>
                         </li>
                     </ul>
@@ -89,23 +89,23 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span> D’élaborer le plan stratégique genre du département ;
+                                <span class="marge"></span>• D’élaborer le plan stratégique genre du département ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> D’assurer la coordination et le suivi de la bonne exécution de la
+                                <span class="marge"></span>• D’assurer la coordination et le suivi de la bonne exécution de la
                                 stratégie genre ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> De participer à la mobilisation des ressources ;
+                                <span class="marge"></span>• De participer à la mobilisation des ressources ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>  De planifier les missions et d’en assurer le suivi.
+                                <span class="marge"></span> • De planifier les missions et d’en assurer le suivi.
                             </p>
                         </li>
                     </ul>
@@ -119,24 +119,24 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span> Président(e) : le ou la conseiller(ère) technique chargé(e) du
+                                <span class="marge"></span>• Président(e) : le ou la conseiller(ère) technique chargé(e) du
                                 genre ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> Rapporteur(e) : le ou la coordinateur/trice de la cellule ;
+                                <span class="marge"></span>• Rapporteur(e) : le ou la coordinateur/trice de la cellule ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> Les points focaux des directions, services nationaux et programmes
+                                <span class="marge"></span>• Les points focaux des directions, services nationaux et programmes
                                 ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> Les coordinateurs/trices des comités régionaux.
+                                <span class="marge"></span>• Les coordinateurs/trices des comités régionaux.
                             </p>
                         </li>
                     </ul>
@@ -150,13 +150,13 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span> Veiller sur la mise en œuvre de la stratégie genre au niveau local
+                                <span class="marge"></span>• Veiller sur la mise en œuvre de la stratégie genre au niveau local
                                 ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> Coordonner l’activité de tous les points focaux de la région.
+                                <span class="marge"></span>• Coordonner l’activité de tous les points focaux de la région.
                             </p>
                         </li>
                     </ul>
@@ -171,17 +171,17 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span>  la dotation budgétaire de l’état ;
+                                <span class="marge"></span>• la dotation budgétaire de l’état ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span> les dotations des partenaires techniques et financiers ;
+                                <span class="marge"></span>• les dotations des partenaires techniques et financiers ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>  et toutes autres ressources approuvées par le Ministre de la santé
+                                <span class="marge"></span>• et toutes autres ressources approuvées par le Ministre de la santé
                                 et de l’action sociale.
                             </p>
                         </li>
@@ -189,7 +189,7 @@
                 </div>
                 <div class="col-md-3" style="padding-top: 50px; padding-right: 30px;">
                     <h3>Voir aussi...</h3>
-                    <h6 class="active bo-r-h">
+                    <h6>
                         <a href="{{route('historique')}}">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
                                  src="{{asset('assets/img/service_1.png')}}" alt="">
@@ -198,7 +198,7 @@
                             Historique
                         </a>
                     </h6>
-                    <h6>
+                    <h6 class="active bo-r-h">
                         <a href="{{route('structuration')}}">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
                                  src="{{asset('assets/img/service_2.png')}}" alt="">
@@ -217,12 +217,12 @@
                         </a>
                     </h6>
                     <h6>
-                        <a>
+                        <a href="{{route('mission')}}">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
                                  src="{{asset('assets/img/service_4.png')}}" alt="">
                             <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover"
                                  src="{{asset('assets/img/service_4_d.png')}}" alt="">
-                            lorem impsut
+                            Vision & Missions & Défis
                         </a>
                     </h6>
                 </div>

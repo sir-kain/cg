@@ -4,7 +4,7 @@
             <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
                 <div class="block-header">
                     <h4 class="block-category">A la Une</h4>
-                    <h2 class="block-title">Nouveautés</h2>
+                    <h2 class="block-title">Actualités</h2>
                     <div class="block-text">Découvrez les derniers contenus partagés sur la plateforme</div>
                 </div>
             </div>
@@ -24,12 +24,12 @@
                                     {{$activity->titre}}</a>
                                 <div class="about-keywords">
                                     <a href="#" class="tags">Activités </a>/
-                                    <a href="{{route('activity.edit', $activity)}}" class="tags">Editer </a>
+                                    <a href="{{route('activity.edit', $activity)}}" class="tags">{{date('d-m-Y', strtotime($activity->created_at))}} </a>
                                     <!-- <a href="#" class="tags">indice </a>/
                                     <a href="#" class="tags">rapport </a>/
                                     <a href="#" class="tags">initiative </a> -->
                                 </div>
-                                <div class="about-text"> {{$activity->description}}.</div>
+                                <div class="about-text"> {{str_limit($activity->description, 80)}}.</div>
                             </div>
                         </div>
                     @endforeach

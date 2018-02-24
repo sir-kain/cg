@@ -23,4 +23,9 @@ class AproposController extends Controller
     {
         return view('pages.objectifsambitions');
     }
+
+    public function mission()
+    {
+        return view('pages.mission');
+    }
 }

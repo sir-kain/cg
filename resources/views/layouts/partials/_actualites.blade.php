@@ -1,10 +1,10 @@
-<div id="speakers" class="main-block clearfix">
+<div style="padding-right: 25px; padding-left: 25px;" id="speakers" class="main-block clearfix">
   <div class="container">
     <div class="row">
       <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
         <div class="block-header">
           <h4 class="block-category">Suivez-nous</h4>
-          <h2 class="block-title">Actualités</h2>
+          <h2 class="block-title">Activités</h2>
         </div>
       </div>
     </div>

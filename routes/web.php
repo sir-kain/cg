@@ -47,8 +47,10 @@ Route::group(['prefix' => 'a-propos'], function () {
     Route::get('/historique', 'AproposController@historique')->name('historique');
     Route::get('/structuration', 'AproposController@structuration')->name('structuration');
     Route::get('/objectifsambition', 'AproposController@objectifsambition')->name('objectifsambition');
+    Route::get('/mission', 'AproposController@mission')->name('mission');
 });
 
+Route::get('/publications', 'PublicationController@index')->name('publications');
 
 Auth::routes();
 

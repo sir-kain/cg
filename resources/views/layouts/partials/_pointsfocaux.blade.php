@@ -4,8 +4,8 @@
           <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
             <div class="block-header">
               <h4 class="block-category">Suivez-nous</h4>
-              <h2 class="block-title">Nos points focaux</h2>
-              <div class="block-text">Lorem impsum dolor emet Lorem impsum dolor emet Lorem impsum dolor emet Lorem impsum.</div>
+              <h2 class="block-title">Nos activités sur les réseaux sociaux</h2>
+              {{--<div class="block-text">Lorem impsum dolor emet Lorem impsum dolor emet Lorem impsum dolor emet Lorem impsum.</div>--}}
             </div>
           </div>
         </div>

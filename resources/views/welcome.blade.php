@@ -16,21 +16,20 @@
 @include('layouts/partials/_presentation')
 @stop
 
+
+{{--ACTUALITES--}}
+
 @section('activites')
 @include('/layouts/partials/_activites')
 @stop
 
-@section('galeries')
-@include('layouts/partials/_galeries')
-@stop
+{{--ACTIVITÉS--}}
 
 @section('actualites')
 @include('layouts/partials/_actualites')
 @stop
 
-@section('documentations')
- @include('layouts/partials/_documentations')
-@stop
+{{--RESEAUX SOCIAUX--}}
 
 @section('pointsFocaux')
 @include('layouts/partials/_pointsfocaux')
@@ -39,7 +38,6 @@
 @section('partenaires')
 @include('/layouts/partials/_partenaires')
 @stop
-
 
 @section('footer')
   @include('layouts/partials/_footer') 

@@ -14,7 +14,7 @@
 
 <div class="main-slider slide-img-only clearfix">
     <div class="img-wrapper">
-        <img class="center-image" src="{{asset('assets/img/perfstock/slider/collaboration2.jpg')}}"/>
+        <img class="center-image" src="{{asset('assets/img/msas/presentation.png')}}"/>
     </div>
 </div>
 
@@ -29,13 +29,13 @@
             <div class="row" style="padding: 20px 0px 75px;">
                 <div class="title-head">
                     <div class="title-head-inner">
-                        <h1 class="no-wrap justify" style="font-weight: 100">Historique</h1>
+                        <h1 class="no-wrap justify bo-b" style="border-color: #cc0055; font-weight: 100">Historique</h1>
                     </div>
                     <div class="page-summary">
                         <p class="justify" style="padding-left: 150px; padding-right: 150px;">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, cum debitis ipsa
-                            iste labore neque officia sit vel velit. Aspernatur autem debitis, dolore dolorem eos
-                            molestias numquam quas similique.
+                            L'approche genre consiste à identifier et analyser les inégalités entre hommes et femmes et
+                            à prendre des mesures concrètes pour les corriger. <br>
+                            <span class="marge"></span><span class="marge"></span>Elle repose donc sur 2 pilliers: ANALYSE et CORRECTION.
                         </p>
                     </div>
                 </div>
@@ -43,20 +43,20 @@
             <div class="row">
                 <div class="col-md-9"
                      style="font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; line-height: 180%; padding: 0 100px 0 40px;">
-                    <p align="justify">
+                    <p align="justify" class="dropcap">
                         Le Sénégal a ratifié de nombreux instruments juridiques :
                     </p>
                     <ul>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span> <strong>Au plan international: </strong>
+                                <span class="marge"></span> <strong> • Au plan international: </strong>
                                 Convention de 1985 sur l’Elimination de toutes Formes de
                                 Discrimination à l’Egard des Femmes (CEDAW/CEDEF).
                             </p>
                         </li>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span><strong>Au plan régional: </strong>
+                                <span class="marge"></span><strong>• Au plan régional: </strong>
                                 Protocole à la Charte Africaine des Droits de l’Homme et des
                                 Peuples relatif aux Droits de la Femme (Protocole de Maputo), en
                                 décembre 2004.
@@ -64,7 +64,7 @@
                         </li>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span><strong>Au plan national: </strong>
+                                <span class="marge"></span><strong>• Au plan national: </strong>
                                 Constitution de 2001 qui garantit expressément l’égalité des droits
                                 entre les hommes et les femmes en mettant l’accent sur les femmes
                                 rurales.
@@ -103,19 +103,19 @@
                     <ul>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span><strong> L’option spécifique du PSE </strong>
+                                <span class="marge"></span><strong> • L’option spécifique du PSE </strong>
                                 relative à l’intégration du genre dans les politiques publiques;
                             </p>
                         </li>
                         <li>
-                            <span class="marge"></span>
                             <p align="justify">
-                                une stratégie de lutte contre toute forme d’inégalités;
+                                <span class="marge"></span>
+                                • une stratégie de lutte contre toute forme d’inégalités;
                             </p>
                         </li>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span> un moyen d’assurer à tous
+                                <span class="marge"></span> • un moyen d’assurer à tous
                                 <strong>
                                     une participation équitable au processus de développement;
                                 </strong>
@@ -123,7 +123,7 @@
                         </li>
                         <li>
                             <p align="justify">
-                                <span class="marge"></span>la contribution à la mise en œuvre des objectifs de
+                                <span class="marge"></span>• la contribution à la mise en œuvre des objectifs de
                                 développement
                                 durable (ODD), surtout
                                 <strong>
@@ -174,30 +174,38 @@
                     <h3>Voir aussi...</h3>
                     <h6 class="active bo-r-h">
                         <a href="{{route('historique')}}">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_1.png')}}" alt="">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_1_d.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
+                                 src="{{asset('assets/img/service_1.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover"
+                                 src="{{asset('assets/img/service_1_d.png')}}" alt="">
                             Historique
                         </a>
                     </h6>
                     <h6>
                         <a href="{{route('structuration')}}">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_2.png')}}" alt="">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_2_d.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
+                                 src="{{asset('assets/img/service_2.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover"
+                                 src="{{asset('assets/img/service_2_d.png')}}" alt="">
                             Composition (Structuration)
                         </a>
                     </h6>
                     <h6>
-                        <a href="objectifsambitions.blade.php">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_3.png')}}" alt="">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_3_d.png')}}" alt="">
-                            lorem impsut
+                        <a href="{{route('objectifsambition')}}">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
+                                 src="{{asset('assets/img/service_3.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover"
+                                 src="{{asset('assets/img/service_3_d.png')}}" alt="">
+                            Objectifs & Ambitions
                         </a>
                     </h6>
                     <h6>
-                        <a>
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon" src="{{asset('assets/img/service_4.png')}}" alt="">
-                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover" src="{{asset('assets/img/service_4_d.png')}}" alt="">
-                            lorem impsut
+                        <a href="{{route('mission')}}">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon"
+                                 src="{{asset('assets/img/service_4.png')}}" alt="">
+                            <img height="25px" style="margin-bottom: -5px" class="presentation-icon-hover"
+                                 src="{{asset('assets/img/service_4_d.png')}}" alt="">
+                            Vision & Missions & Défis
                         </a>
                     </h6>
                 </div>

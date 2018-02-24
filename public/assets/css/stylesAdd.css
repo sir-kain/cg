@@ -3,7 +3,7 @@
 }
 
 .slide-img-only .img-wrapper {
-    height: 400px;
+    height: 450px;
 }
 
 .square-title {
@@ -56,6 +56,6 @@
     /*background-size: cover;*/
 /*}*/
 
-h5:hover {
-
+.text-light a {
+    font-weight: 400;
 }
