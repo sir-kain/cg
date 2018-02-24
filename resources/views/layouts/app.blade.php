@@ -16,7 +16,6 @@
     {{--  mon style  --}}
     <link href="{{asset('assets/css/stylesAdd.css')}}" rel="stylesheet" type="text/css"/>
     <link rel="shortcut icon" href="{{asset('assets/img/Logo.png')}}"/>
-    <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
     <!-- Main css of rubytabs, including styles, skins -->
     <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby00.css')}}">
     <link rel="stylesheet" href="{{asset('ruby/libs/css/ruby01.css')}}">
@@ -264,10 +263,10 @@
     <div id="loading-center">
         <div id="loading-center-absolute">
             <div class="bigSqr">
-                <div class="square first" style="background-color: #cc0055"></div>
+                <div class="square first" style="background-color: #f43ff4"></div>
                 <div class="square second"></div>
                 <div class="square third"></div>
-                <div class="square fourth" style="background-color: #cc0055"></div>
+                <div class="square fourth" style="background-color: #f43ff4"></div>
             </div>
         </div>
     </div>

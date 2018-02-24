@@ -40,9 +40,8 @@
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-9"
-                     style="font-family: 'Roboto', sans-serif; font-size: 18px; font-weight: 500; line-height: 180%; padding: 0 100px 0 40px;">
+            <div class="row font-alter">
+                <div class="col-md-9" style="padding: 0 100px 0 50px;">
                     <p align="justify" class="dropcap">
                         Le Sénégal a ratifié de nombreux instruments juridiques :
                     </p>
