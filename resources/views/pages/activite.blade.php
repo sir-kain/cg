@@ -248,52 +248,28 @@
 
             <div>
                 <h2 class="rt01pagitem">Galérie</h2>
-
-                {{--<div class="row">--}}
-                    {{--<div class="col4">--}}
-                        {{--<a class="rt01img card-img" href="{{asset('assets/img/msas/activites/activite1.jpg')}}">Food--}}
-                            {{--1</a>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col4">--}}
-                        {{--<a class="rt01img card-img" href="{{asset('assets/img/msas/activites/strategie.jpg')}}">Food--}}
-                            {{--2</a>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col4">--}}
-                        {{--<a class="rt01img card-img" href="{{asset('assets/img/msas/activites/activite1.jpg')}}">Food--}}
-                            {{--3</a>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col4">--}}
-                        {{--<a class="rt01img card-img" href="{{asset('assets/img/msas/activites/strategie.jpg')}}">Food--}}
-                            {{--4</a>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col4">--}}
-                        {{--<a class="rt01img card-img" href="{{asset('assets/img/msas/activites/activite1.jpg')}}">Food--}}
-                            {{--6</a>--}}
-                    {{--</div>--}}
-
-                    {{--<div class="col4">--}}
-                        {{--<a class="rt01img card-img" href="{{asset('assets/img/msas/activites/strategie.jpg')}}">Food--}}
-                            {{--7</a>--}}
-                    {{--</div>--}}
-                {{--</div>--}}
                 <div class="row font-blokk">
+                    <div class="row">
+                        <div class="col3"></div>
+                        <div class="col9">
+                            <img class="img-responsive"  src="{{asset('ruby/templates/imgs/animal-focus-landscape2.jpg')}}" alt="">
+                        </div>
+                    </div>
                     <div class="col3"></div>
                     <div class="col3 col-xs-6">
                         <div class="card-outline">
-                            <a class="rt01img card-thumbnail" href="{{asset('ruby/templates/imgs/animal-focus-thumbnail1.jpg')}}">Animal 1</a>
+                            <a class="rt01img card-thumbnail"
+                               href="{{asset('ruby/templates/imgs/animal-focus-thumbnail1.jpg')}}">Animal 1</a>
                             <div class="card-content">Pellentesque habitant morbi tristique senectus et netus et
-                                malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae.
+                                malesuada fames ac turpis egestas.
                             </div>
                         </div>
                     </div>
 
                     <div class="col3 col-xs-6">
                         <div class="card-outline">
-                            <a class="rt01img card-thumbnail" href="{{asset('ruby/templates/imgs/animal-focus-thumbnail2.jpg')}}">Animal 2</a>
+                            <a class="rt01img card-thumbnail"
+                               href="{{asset('ruby/templates/imgs/animal-focus-thumbnail2.jpg')}}">Animal 2</a>
                             <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipisi elit. Deleniti,
                                 pariatur aliquam molestias aspernatur. Facere, quibusdam.
                             </div>
@@ -302,7 +278,8 @@
 
                     <div class="col3 col-xs-6">
                         <div class="card-outline">
-                            <a class="rt01img card-thumbnail" href="{{asset('ruby/templates/imgs/animal-focus-thumbnail3.jpg')}}">Animal 3</a>
+                            <a class="rt01img card-thumbnail"
+                               href="{{asset('ruby/templates/imgs/animal-focus-thumbnail3.jpg')}}">Animal 3</a>
                             <div class="card-content">Aenean fermentum, elit eget tincidunt condimentum, eros ipsum
                                 rutrum orci, sagittis tempus lacus enim donec consectetur io.
                             </div>

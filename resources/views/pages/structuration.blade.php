@@ -14,7 +14,7 @@
 
 <div class="main-slider slide-img-only clearfix">
     <div class="img-wrapper">
-        <img class="center-image" src="{{asset('assets/img/perfstock/slider/collaboration2.jpg')}}"/>
+        <img class="center-image" src="{{asset('assets/img/msas/presentation.png')}}"/>
     </div>
 </div>
 
