@@ -263,7 +263,7 @@
     <div id="loading-center">
         <div id="loading-center-absolute">
             <div class="bigSqr">
-                <div class="square first" style="background-color: #f43ff4"></div>
+                <div class="square first"></div>
                 <div class="square second"></div>
                 <div class="square third"></div>
                 <div class="square fourth" style="background-color: #f43ff4"></div>

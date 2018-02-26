@@ -331,10 +331,10 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide current active" data-val="0">
                     <img class="img-responsive img-full"
-                         src="{{asset('assets/img/perfstock/experts/thumbs/tony_elumelu.jpg')}}" alt="">
+                         src="{{asset('assets/img/msas/mmegacko.jpg')}}" alt="">
                     <div class="thumb-desc">
-                        <div class="thumb-title">Tony Elumelu</div>
-                        <div class="thumb-text">Tony Elumelu Foundation</div>
+                        <div class="thumb-title">Mme Gacko</div>
+                        <div class="thumb-text">Coordonnatrice de la cellule genre</div>
                     </div>
                     <div class="thumb-overlay"></div>
                 </div>

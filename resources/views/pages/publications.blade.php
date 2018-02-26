@@ -4,72 +4,141 @@
     @include('layouts/partials/_header')
 @stop
 
-@section('mainSlider')
-    <div id="about" class="main-slider clearfix">
-        <div class="swiper-container" data-autoplay="0" data-loop="1" data-speed="500" data-center="0"
-             data-slides-per-view="1" data-add-slides="2">
-            <div class="swiper-wrapper">
-                <div class="swiper-slide active" data-val="0">
-                    <div class="triheight">
-                        <img class="center-image" src="{{asset('assets/img/msas/mainslider/publication.jpg')}}" alt=""
-                             style="max-width: 100%;">
-                        <div class="vertical-align">
-                            <div class="square-box">
-                                <h4 class="square-date">Cellule Genre</h4>
-                                <h2 class="square-title">Publications</h2>
-                                <div class="square-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                                    Architecto culpa doloremque dolores eaque eius id libero magnam quam quisquam
-                                    recusandae.
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- <div class="swiper-slide" data-val="1">
-                            <div class="fullheight">
-                                <img class="center-image" src="../assets/img/bg_1.jpg" alt="">
-                                <div class="vertical-align">
-                                  <div class="square-box">
-                                    <h4 class="square-date">25 June 2015</h4>
-                                    <h2 class="square-title">design conference</h2>
-                                    <div class="square-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmodn</div>
-                                  </div>
-                                </div>
-                            </div>
-                          </div> -->
-                {{--  <div class="swiper-slide" data-val="2">
-                  <div class="triheight">
-                    <img class="center-image" src="{{asset('assets/img/perfstock/slider/confroom2.jpg')}}" alt="">
-                    <div class="vertical-align">
-                      <div class="square-box">
-                        <h4 class="square-date">Lorem impsut dolor </h4>
-                        <h2 class="square-title">Lorem</h2>
-                        <div class="square-text">Lorem impsut dolor lorem</div>
-                      </div>
-                    </div>
-                  </div>
-                </div>  --}}
-            </div>
-            <div class="pagination"></div>
-            <div class="swiper-arrow-left style-11"><img src="{{asset('assets/img/arrow_left.png')}}" alt=""></div>
-            <div class="swiper-arrow-right style-11"><img src="{{asset('assets/img/arrow_right.png')}}" alt=""></div>
-        </div>
-    </div>
+{{--  @section('mainSlider')
+@include('layouts/partials/_mainSlider')
 @stop
 
 @section('statistiques')
-    @include('layouts/partials/_statistiques')
-@stop
+@include('layouts/partials/_statistiques')
+@stop--}}
 
-{{--document--}}
-@section('documentations')
-    @include('layouts/partials/_documentations')
-@stop
+<div class="main-slider slide-img-only clearfix">
+    <div class="img-wrapper">
+        <img class="center-image" src="{{asset('assets/img/msas/mainslider/publication.jpg')}}"/>
+    </div>
+</div>
 
-@section('galeries')
-    @include('layouts/partials/_galeries')
-@stop
 
-@section('footer')
+
+@section('activite')
+
+    <!-- TEMPLATE PREVIEW - begin
+    ======================================================================== -->
+    <div class="main-block style-2 clearfix">
+        <div class="container">
+            <div class="row" style="padding: 20px 0px 75px;">
+                <div class="title-head">
+                    <div class="title-head-inner">
+                        <h1 class="no-wrap justify bo-b" style="border-color: #cc0055; font-weight: 100">
+                            Publications</h1>
+                    </div>
+                    <div class="page-summary">
+                        <p class="justify" style="padding-left: 150px; padding-right: 150px;">
+                            L'approche genre consiste à identifier et analyser les inégalités entre hommes et femmes et
+                            à prendre des mesures concrètes pour les corriger. <br>
+                            <span class="marge"></span><span class="marge"></span>Elle repose donc sur 2 pilliers:
+                            ANALYSE et CORRECTION.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="costomers-wrapper">
+                <div class="row">
+                    {{--<div class="col-md-9">--}}
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/ppt.png')}}" alt="">
+                            <div class="cutomers-title">15 Jan 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/froutegenre.pptx') }}" target="_blank">
+                                    Feuille de route de la Cellule Genre du Ministère de la Santé et de l'Action sociale
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/word.png')}}" alt="">
+                            <div class="cutomers-title">30 Fev 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/froutegenre.docx') }}" target="_blank">
+                                    Arrêté
+                                    portant création et fixant les règles d'organisation et fonctionnement
+                                    de la
+                                    Cellule Genre du Ministère de la Santé et de l'Action sociale
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/pdf.jpg')}}" alt="">
+                            <div class="cutomers-title">20 Mai 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/depliantgenre.pdf') }}"
+                                   target="_blank">Ministère de la Santé et de l’Action sociale.
+                                    Qu’est-ce que
+                                    c’est le genre ?</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/pdf.jpg')}}" alt="">
+                            <div class="cutomers-title">20 Oct 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/pmosneeg.pdf') }}" target="_blank">Plan
+                                    de
+                                    mise en oeuvre de la stratégie nationale pour l'équité et l'égalité de
+                                    genre au
+                                    Sénégal</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/pdf.jpg')}}" alt="">
+                            <div class="cutomers-title">31 Oct 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/sneegenre.pdf') }}"
+                                   target="_blank">Stratégie
+                                    Nationale pour l'Equité et l'Egalité de Genre</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/pdf.jpg')}}" alt="">
+                            <div class="cutomers-title">02 Jan 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/msassrd.pdf') }}" target="_blank">Institutionnalisation
+                                    du genre du Ministère de la santé et de l’Action (MSAS)</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="costomers-block col-xs-12 col-sm-6 col-md-4">
+                        <div class="costomers-entry">
+                            <img class="customres-logo" src="{{asset('assets/img/msas/word.png')}}" alt="">
+                            <div class="cutomers-title">02 Jan 2017</div>
+                            <div class="cuctomres-text">
+                                <a class="news-title" href="{{ url('docs/rapforgenre.docx') }}"
+                                   target="_blank">Rapport
+                                    du renforcement des capacités en genre des membres de la Cellule Genre
+                                    du
+                                    MSAS.</a>
+                            </div>
+                        </div>
+                    </div>
+                    {{--</div>--}}
+                    {{--<div class="col-md-3"></div>--}}
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- TEMPLATE PREVIEW - end
+        ======================================================================== -->
+    <div class="page-buffer"></div>
+
+@stop @section('footer')
     @include('layouts/partials/_footer')
 @stop
