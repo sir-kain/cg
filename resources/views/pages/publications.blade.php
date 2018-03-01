@@ -62,9 +62,7 @@
                             <div class="cutomers-title">30 Fev 2017</div>
                             <div class="cuctomres-text">
                                 <a class="news-title" href="{{ url('docs/froutegenre.docx') }}" target="_blank">
-                                    Arrêté
-                                    portant création et fixant les règles d'organisation et fonctionnement
-                                    de la
+                                    Arrêté portant création et fixant les règles d'organisation et fonctionnement de la
                                     Cellule Genre du Ministère de la Santé et de l'Action sociale
                                 </a>
                             </div>

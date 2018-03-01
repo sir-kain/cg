@@ -83,3 +83,8 @@
     .costomers-block:nth-child(3n+1){clear:none;}
     .costomers-block:nth-child(2n+1){clear:both;}
 }
+
+
+.main-nav {
+    float: right;
+}

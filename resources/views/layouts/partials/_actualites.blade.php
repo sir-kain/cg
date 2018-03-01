@@ -14,23 +14,21 @@
              data-center="0" data-slides-per-view="1">
             <div class="swiper-wrapper">
                 <div class="swiper-slide active" data-val="0">
-                    <div class="speaker-img"><img class="center-image"
-                                                  src="{{asset('assets/img/msas/mmegacko.jpg')}}" alt=""></div>
+                    <div class="speaker-img">
+                        <img class="center-image" src="{{asset('assets/img/atelierplancom.jpg')}}" alt="">
+                    </div>
                     <div class="container">
                         <div class="row">
                             <div class="col-xs-12 col-md-6">
                                 <div class="speaker-block">
-                                    <div class="speaker-title">Mme Gacko</div>
+                                    <div class="speaker-title">
+                                        <a style="text-decoration: none;" href="{{route('actuality')}}">Validation du plan com</a>
+                                    </div>
                                     <div class="speaker-category">Coordonnatrice de la Cellule Genre</div>
-                                    <div class="speaker-text">En moins de trente ans, le Nigérian Tony Elumelu a bâti un
-                                        groupe de pointe dans la banque, l'hôtellerie
-                                        et l'énergie. Ce businessman pas comme les autres lance un programme de 100
-                                        millions de dollars pour
-                                        soutenir les patrons de demain.
-                                        <br/>Lis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                                        consequat. Duis aute irure
-                                        dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                                        pariatur.
+                                    <div class="speaker-text">Atelier de validation du plan de communication du Plan
+                                        d'Institutionnalisation du Genre du Ministère de la Santé et de l'Action
+                                        sociale. <br>
+                                        #Santé #CelluleGenreMSAS #Team221 #Kebetu
                                     </div>
                                     <div class="speaker-social clearfix">
                                         <a href="#"><i class="fa fa-google-plus"></i></a>
@@ -40,8 +38,8 @@
                                         <a href="#"><i class="fa fa-skype"></i></a>
                                     </div>
                                     <div class="speaker-change clearfix">
-                                        <img src="{{asset('assets/img/msas/msas.jpg')}}"
-                                             data-image="{{asset('assets/img/msas/msas.jpg')}}" alt="">
+                                        <img src="{{asset('assets/img/msas/mmegacko.jpg')}}"
+                                             data-image="{{asset('assets/img/msas/mmegacko.jpg')}}" alt="">
                                         <img src="{{asset('assets/img/msas/atelier.jpg')}}"
                                              data-image="{{asset('assets/img/msas/atelier.jpg')}}" alt="">
                                         <img src="{{asset('assets/img/msas/msas.jpg')}}"
@@ -331,9 +329,9 @@
             <div class="swiper-wrapper">
                 <div class="swiper-slide current active" data-val="0">
                     <img class="img-responsive img-full"
-                         src="{{asset('assets/img/msas/mmegacko.jpg')}}" alt="">
+                         src="{{asset('assets/img/atelierplancom.jpg')}}" alt="">
                     <div class="thumb-desc">
-                        <div class="thumb-title">Mme Gacko</div>
+                        <div class="thumb-title">Atelier</div>
                         <div class="thumb-text">Coordonnatrice de la cellule genre</div>
                     </div>
                     <div class="thumb-overlay"></div>

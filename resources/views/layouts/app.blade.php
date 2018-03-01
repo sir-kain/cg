@@ -35,10 +35,12 @@
         /* IMAGE RESPONSIVE */
         .img-responsive {
             display: block;
-            width: 100%; height: auto;
+            width: 100%;
+            height: auto;
             margin-bottom: 30px;
             border-radius: 4px;
         }
+
         /* GENERAL STYLE */
         body {
             font-size: 16px;
@@ -252,8 +254,6 @@
     </style>
 
 
-
-
 </head>
 
 
@@ -342,7 +342,7 @@
                             </div>
                             <div class="col-xs-12 col-sm-6">
                                 <div class="s-contact">
-                                    <div class="contact-catagory style-2">Sur Twitter</div>
+                                    <div class="contact-catagory style-2">Actualités</div>
                                     <div class="contact-title">Le fil d'actu</div>
                                     <div class="twitter-row">
                                         <p><i class="fa fa-twitter"></i> <span>@faq</span> vestibulum accumsan est

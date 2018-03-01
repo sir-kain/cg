@@ -24,8 +24,12 @@ Route::get('/activite/{slug}', function ($slug) {
     $activities = $activityServices->getAllActivities()->sortByDesc('created_at');
     $theActivity = $activities->where('slug', $slug)->first();
     // dd($theActivity, $activities);
-    return view('pages.activite', compact('activities', 'theActivity'));
+    return view('pages.actualite', compact('activities', 'theActivity'));
 })->name('activity');
+
+Route::get('/actualite', function () {
+    return view('pages.activite');
+})->name('actuality');
 
 Route::get('/apropos', function () {
     // Recuperation de toutes les activités en utilisant le service
@@ -51,6 +55,7 @@ Route::group(['prefix' => 'a-propos'], function () {
 });
 
 Route::get('/publications', 'PublicationController@index')->name('publications');
+Route::get('/mediatheque', 'MediathequeController@index')->name('mediatheque');
 
 Auth::routes();
 
