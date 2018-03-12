@@ -26,16 +26,6 @@
                                     <li><a href="{{ route('mission') }}">Vision & Missions & Défis</a></li>
                                 </ul>
                             </li>
-                            {{--<li><a>&nbsp;</a>--}}
-                            {{--<ul>--}}
-                            {{--<li><a href="{{ url('') }}">Contacts</a></li>--}}
-                            {{--</ul>--}}
-                            {{--</li>--}}
-                            {{--<li><a>&nbsp;</a>--}}
-                            {{--<ul>--}}
-                            {{--<li><a href="#" id="navPartenaire">Partenaires</a></li>--}}
-                            {{--</ul>--}}
-                            {{--</li>--}}
                         </ul>
                     </li>
                     <li><a href="#" id="navActivites">Actualités</a></li>

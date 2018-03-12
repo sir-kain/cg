@@ -327,7 +327,7 @@
             }'>
 
                 <div>
-                    <h2 class="rt01pagitem">Ativité</h2>
+                    <h2 class="rt01pagitem">Activité</h2>
 
 
                     <!-- Dummy Content - begin -->
@@ -518,17 +518,16 @@
                     <div class="row">
                         <div class="col3"></div>
                         <div class="col9">
-                            <img class="img-responsive"
-                                 src="{{asset('ruby/templates/imgs/animal-focus-landscape2.jpg')}}" alt="">
+                            <img height="100px" class="img-responsive"
+                                 src="{{asset('assets/img/msas/atelier.jpg')}}" alt="">
                         </div>
                     </div>
                     <div class="col3"></div>
                     <div class="col3 col-xs-6">
                         <div class="card-outline">
                             <a class="rt01img card-thumbnail"
-                               href="{{asset('ruby/templates/imgs/animal-focus-thumbnail1.jpg')}}">Animal 1</a>
-                            <div class="card-content">Pellentesque habitant morbi tristique senectus et netus et
-                                malesuada fames ac turpis egestas.
+                               href="{{asset('assets/img/msas/mmegacko.jpg')}}">Mme Gacko</a>
+                            <div class="card-content">Coordonnantrice de la cellule Genre.
                             </div>
                         </div>
                     </div>
@@ -536,9 +535,8 @@
                     <div class="col3 col-xs-6">
                         <div class="card-outline">
                             <a class="rt01img card-thumbnail"
-                               href="{{asset('ruby/templates/imgs/animal-focus-thumbnail2.jpg')}}">Animal 2</a>
-                            <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipisi elit. Deleniti,
-                                pariatur aliquam molestias aspernatur. Facere, quibusdam.
+                               href="{{asset('assets/img/msas/msas.jpg')}}">Animal 2</a>
+                            <div class="card-content">Lorem ipsum dolor sit amet, consectetu
                             </div>
                         </div>
                     </div>

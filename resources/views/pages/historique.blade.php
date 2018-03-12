@@ -40,7 +40,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row font-alter">
+            <div class="row font-blokk">
                 <div class="col-md-9" style="padding: 0 100px 0 50px;">
                     <p align="justify" class="dropcap">
                         Le Sénégal a ratifié de nombreux instruments juridiques :

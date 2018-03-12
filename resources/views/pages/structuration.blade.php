@@ -29,13 +29,18 @@
             <div class="row" style="padding: 20px 0px 75px;">
                 <div class="title-head">
                     <div class="title-head-inner">
-                        <h1 class="no-wrap justify bo-b" style="border-color: #cc0055; font-weight: 100">Structuration</h1>
+                        <h1 class="no-wrap justify bo-b" style="border-color: #cc0055; font-weight: 100">
+                            Structuration</h1>
                     </div>
                     <div class="page-summary">
                         <p class="justify" style="padding-left: 150px; padding-right: 150px;">
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. A accusamus, cum debitis ipsa
-                        iste labore neque officia sit vel velit. Aspernatur autem debitis, dolore dolorem eos
-                        molestias numquam quas similique.
+                            Faire du Sénégal un pays
+                            émergent, sans discrimination,
+                            où les hommes et les femmes
+                            auront les mêmes chances de
+                            participer à son développement
+                            et de jouir des bénéfices
+                            de sa croissance.
                         </p>
                     </div>
                 </div>
@@ -94,7 +99,8 @@
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>• D’assurer la coordination et le suivi de la bonne exécution de la
+                                <span class="marge"></span>• D’assurer la coordination et le suivi de la bonne exécution
+                                de la
                                 stratégie genre ;
                             </p>
                         </li>
@@ -119,7 +125,8 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span>• Président(e) : le ou la conseiller(ère) technique chargé(e) du
+                                <span class="marge"></span>• Président(e) : le ou la conseiller(ère) technique chargé(e)
+                                du
                                 genre ;
                             </p>
                         </li>
@@ -130,7 +137,8 @@
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>• Les points focaux des directions, services nationaux et programmes
+                                <span class="marge"></span>• Les points focaux des directions, services nationaux et
+                                programmes
                                 ;
                             </p>
                         </li>
@@ -150,13 +158,15 @@
                     <ul>
                         <li>
                             <p>
-                                <span class="marge"></span>• Veiller sur la mise en œuvre de la stratégie genre au niveau local
+                                <span class="marge"></span>• Veiller sur la mise en œuvre de la stratégie genre au
+                                niveau local
                                 ;
                             </p>
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>• Coordonner l’activité de tous les points focaux de la région.
+                                <span class="marge"></span>• Coordonner l’activité de tous les points focaux de la
+                                région.
                             </p>
                         </li>
                     </ul>
@@ -181,7 +191,8 @@
                         </li>
                         <li>
                             <p>
-                                <span class="marge"></span>• et toutes autres ressources approuvées par le Ministre de la santé
+                                <span class="marge"></span>• et toutes autres ressources approuvées par le Ministre de
+                                la santé
                                 et de l’action sociale.
                             </p>
                         </li>

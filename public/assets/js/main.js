@@ -15,6 +15,15 @@ $("#navActivites").click(function (e) {
 
 });
 
+$("#navActualites").click(function (e) {
+    console.log('okk1')
+    e.preventDefault();
+    $("html, body").animate({
+        scrollTop: $('#speakers').offset().top - 100
+    }, 2000);
+
+});
+
 $("#navMediatheque").click(function (e) {
     e.preventDefault();
     $("html, body").animate({

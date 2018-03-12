@@ -1,132 +1,108 @@
-@extends('layouts/app', ['title' => 'Publications |'])
+@extends('layouts/app', ['title' => 'Médiathèques |'])
 
 @section('header')
     @include('layouts/partials/_header')
-@stop
+    @stop
 
-{{--  @section('mainSlider')
-@include('layouts/partials/_mainSlider')
-@stop
+<!-- TEMPLATE PREVIEW - begin
+======================================================================== -->
+<style>
+    .main {
+        position: relative;
+    }
+</style>
 
-@section('statistiques')
-@include('layouts/partials/_statistiques')
-@stop--}}
+<div class="main">
 
-<div class="main-slider slide-img-only clearfix">
-    <div class="img-wrapper">
-        <img class="center-image" src="{{asset('assets/img/msas/media.jpg')}}"/>
-    </div>
-</div>
+    <!-- SLIDER PREVIEW - begin -->
+    <style>
+        .slider-preview {
+            z-index: -1;
+        }
 
+        .slider-preview:after {
+            content: '';
+            display: block;
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: transparent url(ruby/templates/imgs/overlay-boken.png) center center;
+            z-index: 99999;
+        }
 
+        .slider-preview .rt01control {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 
-@section('activite')
+    <div class="slider-preview rt01 rt01timer-lineBottom"
+         data-tabs='{
+                "optionsPlus"   : "slider",
+                "fx"            : "randomMath",
+                "speed"         : 2000,
+                "width"         : 940,
+                "isSwipe"       : false,
 
-    <!-- TEMPLATE PREVIEW - begin
-    ======================================================================== -->
-    <div class="wrapper">
+                "imagePosition" : "fill",
+                "isPag"         : false,
+                "isFullscreen"  : true,
+                "offsetBy"      : ".header",
 
-        <!-- TITLE HEADING - begin -->
-        <div class="container">
-            <div class="title-head">
-                <div class="title-head-inner">
-                    <h1>FULLWIDTH LAYOUT</h1>
-                </div>
-            </div>
-        </div>
-        <!-- TITLE HEADING - end -->
-
-
-        <!-- TABS PREVIEW - begin -->
-        <style>
-            .tabs-preview > .rt01tabs.rt01pag {
-                margin-bottom: 0;
-            }
-
-            .tabs-preview > .rt01viewport {
-                padding-top: 50px;
-                padding-bottom: 20px;
-                background: #f9f9f9 url({{asset('ruby/libs/imgs/pattern_wavegrid.png')}}) repeat;
-            }
-
-            @media only screen and (max-width: 479px) {
-                .tabs-preview > .rt01viewport {
-                    padding-top: 30px;
-                    padding-bottom: 0;
-                }
-            }
-        </style>
-
-        <div class="rt01 rt01underline rt01size-l"
-             data-tabs='{
-                "fx"    : "line",
-                "speed" : 800,
-                "pag"   : { "align": "center" }
+                "isSlideshow"   : true,
+                "slideshow"     : { "delay": 4000, "timer": "line", "isPlayPause": false }
             }'>
 
-            <div>
-                <h2 class="rt01pagitem">Photos</h2>
+        <a class="rt01imgback" href="{{asset('assets/img/msas/mainslider/publication.jpg')}}">season 1</a>
+        <a class="rt01imgback" href="{{asset('assets/img/msas/mainslider/publication.jpg')}}">season 1</a>
+    </div>
+    <!-- SLIDER PREVIEW - end -->
 
 
-            </div>
-            <!-- Dummy Content - end -->
-        </div>
+    <!-- CONTENT - begin -->
+    <style>
+        .main-content {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            padding: 30px;
+            background-color: hsla(0, 0%, 100%, .85);
+            border-radius: 4px;
+            box-shadow: 0 0 2px hsla(0, 0%, 0%, .25);
+            text-align: center;
 
-        <div>
-            <h2 class="rt01pagitem">Vidéos</h2>
-            <div class="row font-blokk">
-                <div class="row">
-                    <div class="col3"></div>
-                    <div class="col9">
-                        <img class="img-responsive"
-                             src="{{asset('ruby/templates/imgs/animal-focus-landscape2.jpg')}}" alt="">
-                    </div>
-                </div>
-                <div class="col3"></div>
-                <div class="col3 col-xs-6">
-                    <div class="card-outline">
-                        <a class="rt01img card-thumbnail"
-                           href="{{asset('ruby/templates/imgs/animal-focus-thumbnail1.jpg')}}">Animal 1</a>
-                        <div class="card-content">Pellentesque habitant morbi tristique senectus et netus et
-                            malesuada fames ac turpis egestas.
-                        </div>
-                    </div>
-                </div>
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+        }
 
-                <div class="col3 col-xs-6">
-                    <div class="card-outline">
-                        <a class="rt01img card-thumbnail"
-                           href="{{asset('ruby/templates/imgs/animal-focus-thumbnail2.jpg')}}">Animal 2</a>
-                        <div class="card-content">Lorem ipsum dolor sit amet, consectetur adipisi elit. Deleniti,
-                            pariatur aliquam molestias aspernatur. Facere, quibusdam.
-                        </div>
-                    </div>
-                </div>
+        .ie8 .content-inner {
+            position: relative;
+            left: -50%;
+            margin-top: -50px;
+            padding: 30px;
+            background-color: #fff;
+        }
 
-                <div class="col3 col-xs-6">
-                    <div class="card-outline">
-                        <a class="rt01img card-thumbnail"
-                           href="{{asset('ruby/templates/imgs/animal-focus-thumbnail3.jpg')}}">Animal 3</a>
-                        <div class="card-content">Aenean fermentum, elit eget tincidunt condimentum, eros ipsum
-                            rutrum orci, sagittis tempus lacus enim donec consectetur io.
-                        </div>
-                    </div>
-                </div>
+        .main-content h1 {
+            margin-bottom: 0;
+        }
+    </style>
 
-            </div>
+    <div class="main-content">
+        <div class="content-inner">
+            <!-- TITLE HEADING -->
+            <h1>MEDIATHEQUES</h1>
         </div>
     </div>
-    <!-- TABS PREVIEW - end -->
+</div>
+<!-- TEMPLATE PREVIEW - end
+======================================================================== -->
 
-    </div>
-    <!-- TEMPLATE PREVIEW - end
-    ======================================================================== -->
-
-
-
-
-    <div class="page-buffer"></div>
-
-@stop @section('footer')
+@section('activite')
+@stop
+@section('footer')
     @include('layouts/partials/_footer')
 @stop
