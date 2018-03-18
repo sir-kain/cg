@@ -62,7 +62,7 @@ function listefichiers(e) {
                 imageSection.style.backgroundImage = 'url('+e.target.result+')'
                 imageSection.style.backgroundSize= 'cover'
                 imageSection.style.display = 'block'
-    
+
             }
             reader.readAsDataURL(image)
         }else{

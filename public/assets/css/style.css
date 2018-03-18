@@ -251,7 +251,7 @@ body { font-family: 'Open Sans', sans-serif; }
 .header.scrolled { background: #222; }
 .page-header { background: #222 !important; margin-top: 0;}
 .page-header + #content-wrapper { margin-top: 190px;}
-.logo { float: left; display: inline-block; margin-top: 41px; }
+/*.logo { float: left; display: inline-block; margin-top: 41px; }*/
 .main-nav { margin-top: 42px; margin-bottom: 34px; }
 .main-nav li { display: inline-block; margin-left: 33.2px; }
 .main-nav li:first-child { margin-left: 0;}
@@ -1582,14 +1582,14 @@ body[data-color="rhodamine"] .speaker-social.style-2 a:hover { background: #D45A
     .header.type-3 .top-social a:last-child { margin-right: 0px; }
     .header.type-3 .top-search { display: block; float: left; color: rgba(255, 255, 255, 0.6); font-size: 17px; margin-left: 43px; padding-top: 5px; }
     .header.type-3 .top-search:hover { color: #fff; }
-    .header.type-3 .logo { margin-top: 25px; }
+    /*.header.type-3 .logo { margin-top: 25px; }*/
     .header.type-3 .main-nav { margin-top: 27px; margin-bottom: 22px; display: block !important; }
 }
 
 /* Tablets (>=768px)*/
 @media (max-width: 991px) { .header { position: static; height: auto; z-index: 100; }
     .header .logo-block { position: fixed; left: 0px; width: 100%; height: 80px; padding-left: 15px; padding-right: 15px; background: #222; -webkit-transform: translateZ(0); -webkit-transform: translate3d(0, 0, 0); z-index: 101; }
-    .logo { margin-top: 32px; }
+    /*.logo { margin-top: 32px; }*/
     .main-nav { display: none; position: fixed; top: 0; left: 0px; width: 100%; z-index: 10; text-align: center; margin-top: 0; background: #222; padding-top: 107px; padding-bottom: 20px; max-height: 100%; overflow: auto; }
     .main-nav a { display: inline-block; }
     .main-nav > ul > li { display: block; width: 100%; margin-left: 0px; margin-bottom: 12px; }
