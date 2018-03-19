@@ -39,7 +39,7 @@
         }
     </style>
 
-    <div class="slider-preview rt01 rt01timer-lineBottom"
+    <div style="height: 450px;" class="slider-preview rt01 rt01timer-lineBottom"
          data-tabs='{
                 "optionsPlus"   : "slider",
                 "fx"            : "randomMath",
@@ -56,7 +56,7 @@
                 "slideshow"     : { "delay": 4000, "timer": "line", "isPlayPause": false }
             }'>
 
-        <a class="rt01imgback" href="{{asset('assets/img/msas/mainslider/publication.jpg')}}">season 1</a>
+        <a class="rt01imgback" href="{{asset('assets/img/msas/media.jpg')}}">Média</a>
         <a class="rt01imgback" href="{{asset('assets/img/msas/mainslider/publication.jpg')}}">season 1</a>
     </div>
     <!-- SLIDER PREVIEW - end -->

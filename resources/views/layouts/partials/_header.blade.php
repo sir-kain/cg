@@ -6,8 +6,9 @@
 
         <!-- Logo - begin
         ....................................................................  -->
-        <a class="logo" href="{{ url('') }}" data-mScale="100">
-            <img src="{{asset('assets/img/Logo.png')}}" alt="" height="50px">
+        <a class="logo" href="{{ url('') }}" data-mScale="100" style="display: inline-flex;">
+                <img style="margin-top: -3px" src="{{asset('assets/img/msas/partenaires/ministere-de-la-sante.png')}}" alt="" height="60px">
+                <img style="margin: -10px 0 5px 40px;" src="{{asset('assets/img/Logo.png')}}" alt="" height="70px">
         </a>
         <!-- Logo - end
         ....................................................................  -->

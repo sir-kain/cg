@@ -65,7 +65,7 @@
                     <div class="row">
                         <ul>
                             <li>
-                                <p align="justify">
+                                <p align="justify" class="dropcap">
                                     Elaborer chaque année le cadre d’actions annuel de toutes les
                                     parties prenantes des questions de genre, de sa structure en se
                                     référant au plan de MEO, de la SNEEG et le cas échéant, le plan
@@ -136,7 +136,7 @@
                     <div class="row">
                         <ul>
                             <li>
-                                <p align="justify">
+                                <p align="justify" class="dropcap">
                                     Implication et participation de toutes les parties prenantes par la
                                     Création de cadre de concertation et de coordination par la mise en
                                     place d’un comité de pilotage par des comités régionaux et national
