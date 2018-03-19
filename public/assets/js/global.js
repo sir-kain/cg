@@ -41,13 +41,17 @@ $(function () {
 
     /*========================*/
     /* 02 - PAGE CALCULATIONS */
-
     /*========================*/
     function pageCalculations() {
         winW = $(window).width();
         winH = $(window).height();
         if ($('.cmn-toggle-switch').is(':visible')) _isresponsive = true;
         else _isresponsive = false;
+        if(winW < 950) {
+            $('.msas-logo').hide();
+        }else {
+            $('.msas-logo').show();
+        }
     }
 
     /*=================================*/
