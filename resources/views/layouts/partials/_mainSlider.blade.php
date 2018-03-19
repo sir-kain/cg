@@ -23,7 +23,7 @@
                                 <h4 class="square-date">Bienvenue</h4>
                                 <h2 class="square-title">Cellule Genre</h2>
                                 <div class="square-text"> Equité et égalité de genre pour la santé et le bien-être de
-                                    tous.
+                                    toutes et de tous.
                                 </div>
                             @endif
                         </div>

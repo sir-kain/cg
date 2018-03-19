@@ -6,7 +6,9 @@
 
         <!-- Logo - begin
         ....................................................................  -->
-        <a class="logo" href="{{ url('') }}" data-mScale="100">Cellule Genre</a>
+        <a class="logo" href="{{ url('') }}" data-mScale="100">
+            <img src="{{asset('assets/img/Logo.png')}}" alt="" height="50px">
+        </a>
         <!-- Logo - end
         ....................................................................  -->
 
