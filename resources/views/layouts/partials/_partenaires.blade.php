@@ -12,7 +12,7 @@
             <div class="col-xs-6 col-md-2 col-md-offset-1">
                 <div class="sponsor-entry white">
                     <a title="DIRECTION DE L'EQUITE ET DE L'EGALITE DE GENRE" href="http://www.directiongenre.com/" target="_blank">
-                        <img src="{{asset('assets/img/msas/partenaires/deeg.jpg')}}"
+                        <img src="{{asset('assets/img/msas/partenaires/ministerefemme.jpeg')}}"
                              alt="DIRECTION DE L'EQUITE ET DE L'EGALITE DE GENRE">
                     </a>
                 </div>
@@ -80,6 +80,30 @@
                 <div class="sponsor-entry">
                     <a title="Fonds des Nations unies pour la population" href="https://www.unfpa.org/fr" target="_blank">
                         <img src="{{asset('assets/img/msas/partenaires/unfpa.png')}}" alt="unfpa">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 col-md-2 col-md-offset-3">
+                <div class="sponsor-entry">
+                    <a title="ONU Femme" href="http://www.unwomen.org/fr" target="_blank">
+                        <img src="{{asset('assets/img/msas/partenaires/ONUFemme.gif')}}" alt="ONU Femme">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div class="sponsor-entry">
+                    <a title="(BOM) Bureau d'organisation et Méthodes" href="" target="_blank">
+                        <img src="{{asset('assets/img/msas/partenaires/deeg.jpg')}}"
+                             alt="(BOM) Bureau d'organisation et Méthodes">
+                    </a>
+                </div>
+            </div>
+            <div class="col-xs-6 col-md-2">
+                <div class="sponsor-entry white">
+                    <a title="Banque mondiale" href="http://www.banquemondiale.org/" target="_blank">
+                        <img src="{{asset('assets/img/msas/partenaires/banquemondiale.svg')}}" alt="Banque mondiale">
                     </a>
                 </div>
             </div>
