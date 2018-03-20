@@ -7,7 +7,7 @@
         <!-- Logo - begin
         ....................................................................  -->
         <a class="logo" href="{{ url('') }}" data-mScale="100" style="display: inline-flex;">
-                <img class="msas-logo" style="margin-top: -3px" src="{{asset('assets/img/msas/partenaires/ministere-de-la-sante.png')}}" alt="" height="60px">
+                <img class="msas-logo" style="margin-top: -3px" src="{{asset('assets/img/msas/partenaires/ministere-sante.png')}}" alt="" height="60px">
                 <img class="genre-logo" style="margin: -10px 0 5px 40px;" src="{{asset('assets/img/Logo.png')}}" alt="" height="70px">
         </a>
         <!-- Logo - end
