@@ -39,6 +39,10 @@
 @include('/layouts/partials/_partenaires')
 @stop
 
+@section('director-words')
+@include('/layouts/partials/_director-word')
+@stop
+
 @section('footer')
   @include('layouts/partials/_footer') 
 @stop

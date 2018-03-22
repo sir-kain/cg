@@ -24,7 +24,7 @@
                                     <div class="speaker-title">
                                         <a style="text-decoration: none;" href="{{route('actuality')}}">Validation du plan com</a>
                                     </div>
-                                    <div class="speaker-category">Coordonnatrice de la Cellule Genre</div>
+                                    <div class="speaker-category">Coordonatrice de la Cellule Genre</div>
                                     <div class="speaker-text">Atelier de validation du plan de communication du Plan
                                         d'Institutionnalisation du Genre du Ministère de la Santé et de l'Action
                                         sociale. <br>
