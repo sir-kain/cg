@@ -5,7 +5,7 @@
             <div class="swiper-slide active" data-val="0">
                 <div class="triheight">
                     @if ($theActivity != false)
-                        <img class="blur-img center-image" src="{{asset('storage/upload/activite/'.$theActivity->media)}}" alt="" style="max-width: 100%; filter: blur(5px); -webkit-filter: blur(5px);">
+                        <img class="blur-img center-image" src="{{asset('assets/img/msas/activite</'.$theActivity->media)}}" alt="" style="max-width: 100%; filter: blur(5px); -webkit-filter: blur(5px);">
                         {{--  {{ HTML::image('public/upload/activite/1.jpeg') }}  --}}
                     @elseif ($theActivity == false)
                         <img class="blur-img center-image" src="{{asset('assets/img/perfstock/slider/collaboration2.jpg')}}"
