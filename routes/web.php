@@ -13,6 +13,10 @@
 use App\Activity;
 use App\Services\ActivityServices;
 
+if (App::environment('production')) {
+    URL::forceScheme('https');
+}
+
 Route::get('/', 'WelcomeController@index')->name('welcome');
 
 Route::post('/apropos', 'ContactController@store');
