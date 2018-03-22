@@ -10,7 +10,7 @@
     <link href="{{asset('assets/css/bootstrap.min.css')}}" rel="stylesheet" type="text/css"/>
     <link href="{{asset('assets/css/font-awesome.min.css')}}" rel="stylesheet" type="text/css"/>
     <link href="{{asset('assets/css/idangerous.swiper.css')}}" rel="stylesheet" type="text/css"/>
-    <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.2.0/animate.min.css">
     <link rel="stylesheet" href="{{asset('assets/css/ionicons.min.css')}}">
     <link href="{{asset('assets/css/style.css')}}" rel="stylesheet" type="text/css"/>
     {{--  mon style  --}}
@@ -405,7 +405,7 @@
 <script src="{{asset('assets/js/idangerous.swiper.min.js')}}"></script>
 <script src="{{asset('assets/js/isotope.pkgd.min.js')}}"></script>
 <script src="{{asset('assets/js/imagelightbox.min.js')}}"></script>
-<script src="http://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
+<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
 <script src="{{asset('assets/js/global.js')}}"></script>
 <script src="{{asset('assets/js/anchors.navigation.js')}}"></script>
 <!-- Main script of rubytabs -->
