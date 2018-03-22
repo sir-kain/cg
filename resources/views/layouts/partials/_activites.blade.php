@@ -19,7 +19,7 @@
                             <div class="about-item">
                                 <a class="about-title" href="{{ url('activite/'.$activity->slug) }}">
                                     <img class="img-responsive"
-                                         src="{{asset('storage/upload/activite/'.$activity->media)}}" alt=""
+                                         src="{{asset('assets/img/msas/activites/'.$activity->media)}}" alt=""
                                          style="height:200px">
                                     {{$activity->titre}}</a>
                                 <div class="about-keywords">
