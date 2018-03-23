@@ -12,13 +12,9 @@
 @include('layouts/partials/_statistiques')
 @stop--}}
 
-<div class="main-slider slide-img-only clearfix">
-    <div class="img-wrapper">
-        <img class="center-image" src="{{asset('assets/img/msas/presentation.png')}}"/>
-    </div>
-</div>
-
-
+@section('topimage')
+    @include('layouts/partials/_topImage', ['image' =>  'presentation.png', 'titre' => 'Structuration'])
+@stop
 
 @section('activite')
 
@@ -30,7 +26,8 @@
                 <div class="title-head">
                     <div class="title-head-inner">
                         <h1 class="no-wrap justify bo-b" style="border-color: #cc0055; font-weight: 100">
-                            Structuration</h1>
+                            Structuration
+                        </h1>
                     </div>
                     <div class="page-summary">
                         <p class="justify" style="padding-left: 150px; padding-right: 150px;">

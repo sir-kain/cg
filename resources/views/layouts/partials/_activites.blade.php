@@ -20,7 +20,7 @@
                                 <a class="about-title" href="{{ url('activite/'.$activity->slug) }}">
                                     <img class="img-responsive"
                                          src="{{asset('assets/img/msas/activites/'.$activity->media)}}" alt=""
-                                         style="height:200px">
+                                         style="height: 200px">
                                     {{$activity->titre}}</a>
                                 <div class="about-keywords">
                                     <a href="#" class="tags">Activités </a>/

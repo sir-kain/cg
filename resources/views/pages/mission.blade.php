@@ -12,11 +12,9 @@
 @include('layouts/partials/_statistiques')
 @stop--}}
 
-<div class="main-slider slide-img-only clearfix">
-    <div class="img-wrapper">
-        <img class="center-image" src="{{asset('assets/img/msas/presentation.png')}}"/>
-    </div>
-</div>
+@section('topimage')
+    @include('layouts/partials/_topImage', ['image' =>  'presentation.png', 'titre' => "Vision, Missions & Défis"])
+@stop
 
 
 

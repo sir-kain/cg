@@ -278,6 +278,8 @@
 <div id="content-wrapper">
     <!-- MAIN-SLIDER -->
 @yield('mainSlider')
+<!-- MAIN-SLIDER -->
+@yield('topimage')
 <!-- COUNTERS -->
 @yield('statistiques')
 

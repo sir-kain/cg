@@ -4,6 +4,10 @@
     @include('layouts/partials/_header')
 @stop
 
+@section('topimage')
+    @include('layouts/partials/_topImage', ['image' =>  'presentation.png', 'titre' =>  'Historique'])
+@stop
+
 {{--  @section('mainSlider')
 @include('layouts/partials/_mainSlider')
 @stop
@@ -11,13 +15,6 @@
 @section('statistiques')
 @include('layouts/partials/_statistiques')
 @stop--}}
-
-<div class="main-slider slide-img-only clearfix">
-    <div class="img-wrapper">
-        <img class="center-image" src="{{asset('assets/img/msas/presentation.png')}}"/>
-    </div>
-</div>
-
 
 
 @section('activite')
@@ -35,7 +32,8 @@
                         <p class="justify" style="padding-left: 150px; padding-right: 150px;">
                             L'approche genre consiste à identifier et analyser les inégalités entre hommes et femmes et
                             à prendre des mesures concrètes pour les corriger. <br>
-                            <span class="marge"></span><span class="marge"></span>Elle repose donc sur 2 pilliers: ANALYSE et CORRECTION.
+                            <span class="marge"></span><span class="marge"></span>Elle repose donc sur 2 pilliers:
+                            ANALYSE et CORRECTION.
                         </p>
                     </div>
                 </div>
