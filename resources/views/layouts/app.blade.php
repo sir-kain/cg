@@ -321,11 +321,11 @@
     </div>
     <div id="contact" class="contact-block bg-dark">
         <div class="map-block" id="map-canvas" data-marker="{{asset('assets/img/marker_yellow.png')}}"
-             data-lat="14.693562" data-lng="-17.468980" data-zoom="11" data-style="style-1"></div>
+             data-lat="14.6932394" data-lng="-17.4686104" data-zoom="14" data-style="style-1"></div>
         <div class="addresses-block">
-            <a data-lat="14.693562" data-lng="-17.468980"
+            <a data-lat="14.6932394" data-lng="-17.4686104"
                data-string="1. Here is some address or email or phone or something else..."></a>
-            <a data-lat="14.693562" data-lng="-17.468980"
+            <a data-lat="14.6932394" data-lng="-17.4686104"
                data-string="2. Here is some address or email or phone or something else..."></a>
         </div>
 
@@ -336,17 +336,17 @@
                         <div class="row">
                             <div class="col-xs-12 col-sm-6">
                                 <div class="s-contact">
-                                    <div class="contact-catagory">Contact Info</div>
-                                    <div class="contact-title">contact us</div>
+                                    <div class="contact-catagory">Contact</div>
+                                    <div class="contact-title">Contacter nous</div>
                                     <div class="contact-desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                                         sed do eiusmod tempor
                                     </div>
                                     <div class="contact-row">
-                                        <p><i class="fa fa-map-marker"></i> 49 West 32nd Street, New York</p>
+                                        <p><i class="fa fa-map-marker"></i> Ministère de la Santé et de l'Action Sociale, Rue Aime Cesaire</p>
                                         <p><i class="fa fa-envelope-o"></i><a href="mailto:cellulegenre@sante.gouv.sn">cellulegenre@sante.gouv.sn</a>
                                         </p>
-                                        <p><i class="fa fa-phone"></i><a href="tal:61402186411">+61 402 186 411</a>, <a
-                                                    href="tal:6166650">+61 66 650</a></p>
+                                        <p><i class="fa fa-phone"></i><a href="tal:33 869 42 74">+33 869 42 74</a>, <a
+                                                    href="tal:33 869 42 74">+33 869 42 74</a></p>
                                     </div>
                                 </div>
                             </div>
