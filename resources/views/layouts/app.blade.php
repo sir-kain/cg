@@ -405,7 +405,9 @@
 <script src="{{asset('assets/js/idangerous.swiper.min.js')}}"></script>
 <script src="{{asset('assets/js/isotope.pkgd.min.js')}}"></script>
 <script src="{{asset('assets/js/imagelightbox.min.js')}}"></script>
-<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>
+{{--<script src="https://maps.googleapis.com/maps/api/js?sensor=false&amp;language=en"></script>--}}
+<script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBVkLWZhmJ8S_IG3rNeDR0ewqSCrc-Fn0Y"
+        type="text/javascript"></script>
 <script src="{{asset('assets/js/global.js')}}"></script>
 <script src="{{asset('assets/js/anchors.navigation.js')}}"></script>
 <!-- Main script of rubytabs -->
