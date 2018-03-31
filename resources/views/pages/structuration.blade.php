@@ -236,6 +236,89 @@
                 </div>
             </div>
         </div>
+        <!-- SHEDULE -->
+        <div id="schedule" class="main-block">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-12 col-sm-10 col-sm-offset-1 col-md-8 col-md-offset-2">
+                        <div class="block-header">
+                            <h4 class="block-category">Notre Réseau</h4>
+                            <h2 class="block-title">L'équipe</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-wrapper">
+                    <div class="tabs-content clearfix">
+                        <div class="tab-info active">
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="{{asset('assets/img/user_1.jpg')}}" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">Vision 2020</div>
+                                    <h4><a class="shedule-speaker" id="demo01" href="#animatedModal">Rwanda</a></h4>
+
+                                    {{--<div class="shedule-text">--}}
+                                        {{--Le Rwanda figure aujourd’hui parmi les pays africains les--}}
+                                        {{--plus prisés par les investisseurs étrangers.--}}
+                                    {{--</div>--}}
+                                    <img class="img-responsive" src="{{asset('assets/img/msas/equipe/coordo.jpg')}}"
+                                         alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="{{asset('assets/img/user_1.jpg')}}" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">Plan Sénégal Emergent</div>
+                                    <h4><a class="shedule-speaker" href="#">Senegal</a></h4>
+
+                                    <div class="shedule-text">Le Sénégal a décidé d’adopter un nouveau modèle de
+                                        développement pour accélérer sa marche vers l’émergence.
+                                    </div>
+                                    <img class="img-responsive" src="img/perfstock/pays/modal/senegal.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="{{asset('assets/img/user_1.jpg')}}" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">Plan Stratégique Gabon Emergent</div>
+                                    <h4><a class="shedule-speaker" href="#">Gabon</a></h4>
+
+                                    <div class="shedule-text">Le projet de "Gabon émergent" consiste à mettre en oeuvre
+                                        une stratégie autour de trois piliers de croissance dont
+                                        le ressort est la valorisation du potentiel en ressources humaines, naturelles
+                                        et minéralières du Gabon.
+                                    </div>
+                                    <img class="img-responsive" src="img/perfstock/pays/modal/gabon.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block right">
+                                <img class="shedule-user" src="{{asset('assets/img/user_1.jpg')}}" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">PND 2016-2020</div>
+                                    <h4><a class="shedule-speaker" href="#">Côte d'Ivoire</a></h4>
+
+                                    <div class="shedule-text">La Côte d'Ivoire a l'ambition de devenir un pays émergent
+                                        à l'horizon 2020.
+                                    </div>
+                                    <img class="img-responsive" src="img/perfstock/pays/modal/ivorycoast.jpg" alt="">
+                                </div>
+                            </div>
+                            <div class="shedule-block left">
+                                <img class="shedule-user" src="{{asset('assets/img/user_1.jpg')}}" alt="">
+                                <div class="shedule-entry">
+                                    <div class="shedule-date">Plan Tanzania</div>
+                                    <h4><a class="shedule-speaker" href="#">Tanzanie</a></h4>
+
+                                    <div class="shedule-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+                                        sed do eiusmod tempor.
+                                    </div>
+                                    <img class="img-responsive" src="img/perfstock/pays/modal/tanzanie.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- TEMPLATE PREVIEW - end
         ======================================================================== -->
